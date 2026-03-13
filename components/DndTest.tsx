@@ -43,6 +43,34 @@ function TraitItem({ text }: { text: string }) {
   );
 }
 
+function ArchedHeadline() {
+  return (
+    <div className="mx-auto -mb-12 w-full max-w-[980px] overflow-visible">
+      <svg
+        viewBox="0 0 980 220"
+        className="h-[8.2rem] w-full overflow-visible"
+        role="img"
+        aria-label="The Oracle's Mirror"
+      >
+        <defs>
+          <path id="headline-arc" d="M 70 204 Q 490 4 910 204" />
+        </defs>
+        <text
+          fill="#c8a96e"
+          fontSize="82"
+          letterSpacing="2"
+          textAnchor="middle"
+          style={{ fontFamily: "var(--font-unifraktur), 'UnifrakturCook', cursive", fontWeight: 700 }}
+        >
+          <textPath href="#headline-arc" startOffset="50%">
+            The Oracle&apos;s Mirror
+          </textPath>
+        </text>
+      </svg>
+    </div>
+  );
+}
+
 // ─── QUIZ VIEW ────────────────────────────────────────────────
 function QuizView({
   questions, flipped, cur, answers, onPrev, onPickAndNext,
@@ -82,14 +110,17 @@ function QuizView({
     <div className="min-h-screen flex flex-col">
 
       {/* Header */}
-      <div className="bg-[#0d0906] px-6 pt-6 pb-4 text-center border-b border-[#8b6914]/40">
-        <h1 className="font-unifraktur text-[3.5rem] tracking-wide text-[#c8a96e] mb-2">
-          The Oracle&apos;s Mirror
-        </h1>
+      <div className="bg-[#0d0906] px-6 pt-0 pb-4 text-center border-b border-[#8b6914]/40">
+        <ArchedHeadline />
+        <div className="font-cinzel text-[#8b6914] uppercase -mt-1 mb-2">
+          <div className="text-[0.72rem] tracking-[3px] leading-[1.2]">
+            A Dungeons &amp; Dragons
+          </div>
+          <div className="text-[0.96rem] tracking-[3px] leading-[1.3] mt-1">
+            Personality Test
+          </div>
+        </div>
         <WingDivider color="#c8a96e" width={242} opacity={1} />
-        <p className="font-cinzel text-[0.6rem] tracking-[3px] text-[#8b6914] uppercase mt-2 mb-1">
-          A Dungeons &amp; Dragons Personality Test
-        </p>
         <p className="font-fell italic text-[1.4rem] text-[#f0ddb0] mt-3 mb-2">
           Would you rather...
         </p>
@@ -98,7 +129,7 @@ function QuizView({
           <p className="font-cinzel text-[0.55rem] tracking-[3px] text-[#8b6914] uppercase mb-1">
             {cur + 1} of {total}
           </p>
-          <div className="h-[2px] bg-[#3d1507] rounded overflow-hidden">
+          <div className="h-[4px] bg-[#3d1507] rounded overflow-hidden">
             <div
               className="h-full rounded transition-all duration-500"
               style={{ width: `${pct}%`, background: "linear-gradient(90deg,#7a0e0e,#c8a96e)" }}
