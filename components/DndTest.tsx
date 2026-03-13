@@ -86,7 +86,7 @@ function QuizView({
         <h1 className="font-unifraktur text-[3.5rem] tracking-wide text-[#c8a96e] mb-2">
           The Oracle&apos;s Mirror
         </h1>
-        <WingDivider color="#c8a96e" width={32} opacity={1} />
+        <WingDivider color="#c8a96e" width={56} opacity={1} />
         <p className="font-cinzel text-[0.6rem] tracking-[3px] text-[#8b6914] uppercase mt-2 mb-1">
           A Dungeons &amp; Dragons Personality Test
         </p>
