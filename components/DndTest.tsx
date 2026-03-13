@@ -83,7 +83,7 @@ function QuizView({
 
       {/* Header */}
       <div className="bg-[#0d0906] px-6 pt-6 pb-4 text-center border-b border-[#8b6914]/40">
-        <h1 className="font-unifraktur text-[2.2rem] tracking-wide text-[#c8a96e] mb-2">
+        <h1 className="font-unifraktur text-[3.5rem] tracking-wide text-[#c8a96e] mb-2">
           The Oracle&apos;s Mirror
         </h1>
         <WingDivider color="#c8a96e" width={32} opacity={1} />
