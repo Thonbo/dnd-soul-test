@@ -1,0 +1,159 @@
+[
+  {
+    "id": "barbarian",
+    "label": "Barbarian",
+    "description": "An instinct-driven frontline destroyer built on rage, resilience, and physical dominance.",
+    "weights": {
+      "martial_affinity": 3,
+      "frontline": 3,
+      "resilience": 3,
+      "instinct": 3,
+      "chaos": 2,
+      "destruction": 2
+    }
+  },
+  {
+    "id": "bard",
+    "label": "Bard",
+    "description": "A charismatic support hybrid that mixes presence, trickery, and magic.",
+    "weights": {
+      "leadership": 2,
+      "spotlight": 3,
+      "support": 3,
+      "trickster_affinity": 2,
+      "arcane_affinity": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "cleric",
+    "label": "Cleric",
+    "description": "A divine caster anchored in support, purpose, and control.",
+    "weights": {
+      "divine_affinity": 3,
+      "support": 3,
+      "control": 2,
+      "duty": 2,
+      "mercy": 2,
+      "backline": 1,
+      "frontline": 1
+    }
+  },
+  {
+    "id": "druid",
+    "label": "Druid",
+    "description": "A primal shapeshifter or nature-caster rooted in instinct and natural balance.",
+    "weights": {
+      "primal_affinity": 3,
+      "control": 2,
+      "support": 2,
+      "instinct": 2,
+      "mobility": 1,
+      "resilience": 1
+    }
+  },
+  {
+    "id": "fighter",
+    "label": "Fighter",
+    "description": "A disciplined martial specialist defined by training, durability, and battlefield reliability.",
+    "weights": {
+      "martial_affinity": 3,
+      "frontline": 3,
+      "resilience": 3,
+      "order": 2,
+      "control": 2,
+      "honor": 1
+    }
+  },
+  {
+    "id": "monk",
+    "label": "Monk",
+    "description": "A mobile precision combatant focused on control, mastery, and technical execution.",
+    "weights": {
+      "control": 3,
+      "mobility": 3,
+      "order": 2,
+      "martial_affinity": 2,
+      "complexity": 2,
+      "frontline": 1
+    }
+  },
+  {
+    "id": "paladin",
+    "label": "Paladin",
+    "description": "A sacred frontline protector combining oaths, support, durability, and judgment.",
+    "weights": {
+      "divine_affinity": 3,
+      "frontline": 3,
+      "support": 3,
+      "duty": 3,
+      "honor": 3,
+      "leadership": 2,
+      "resilience": 2
+    }
+  },
+  {
+    "id": "ranger",
+    "label": "Ranger",
+    "description": "A mobile hunter blending martial skill, wilderness instinct, and targeted pressure.",
+    "weights": {
+      "primal_affinity": 2,
+      "mobility": 3,
+      "subtlety": 2,
+      "martial_affinity": 2,
+      "backline": 1,
+      "frontline": 1
+    }
+  },
+  {
+    "id": "rogue",
+    "label": "Rogue",
+    "description": "A precision skirmisher driven by timing, mobility, pragmatism, and subtlety.",
+    "weights": {
+      "subtlety": 3,
+      "mobility": 3,
+      "trickster_affinity": 3,
+      "pragmatism": 2,
+      "solitude": 1,
+      "destruction": 1
+    }
+  },
+  {
+    "id": "sorcerer",
+    "label": "Sorcerer",
+    "description": "An innate arcane force centered on instinctive magic, spectacle, and burst damage.",
+    "weights": {
+      "arcane_affinity": 3,
+      "instinct": 2,
+      "destruction": 3,
+      "spotlight": 2,
+      "chaos": 1,
+      "backline": 2
+    }
+  },
+  {
+    "id": "warlock",
+    "label": "Warlock",
+    "description": "A pact-bound or cursed caster shaped by outsider energy and dangerous bargains.",
+    "weights": {
+      "shadow_affinity": 3,
+      "arcane_affinity": 2,
+      "outsider": 2,
+      "destruction": 2,
+      "control": 1,
+      "complexity": 2
+    }
+  },
+  {
+    "id": "wizard",
+    "label": "Wizard",
+    "description": "A learned controller relying on logic, complexity, and deep arcane mastery.",
+    "weights": {
+      "arcane_affinity": 3,
+      "logic": 3,
+      "control": 3,
+      "complexity": 3,
+      "backline": 2
+    }
+  }
+]

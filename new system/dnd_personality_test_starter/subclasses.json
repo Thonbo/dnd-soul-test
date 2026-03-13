@@ -1,0 +1,275 @@
+[
+  {
+    "id": "barbarian_path_of_berserker",
+    "classId": "barbarian",
+    "label": "Path of the Berserker",
+    "description": "Pure rage and physical brutality.",
+    "weights": {
+      "destruction": 2,
+      "frontline": 1,
+      "ruthlessness": 1
+    }
+  },
+  {
+    "id": "barbarian_path_of_wild_magic",
+    "classId": "barbarian",
+    "label": "Path of Wild Magic",
+    "description": "Chaotic rage fused with unstable magic.",
+    "weights": {
+      "chaos": 3,
+      "arcane_affinity": 1,
+      "instinct": 1,
+      "control": -1
+    }
+  },
+  {
+    "id": "bard_college_of_lore",
+    "classId": "bard",
+    "label": "College of Lore",
+    "description": "A knowledge-focused support caster and skill expert.",
+    "weights": {
+      "logic": 2,
+      "support": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "bard_college_of_swords",
+    "classId": "bard",
+    "label": "College of Swords",
+    "description": "A flashy duelist blending performance and combat.",
+    "weights": {
+      "frontline": 1,
+      "spotlight": 1,
+      "martial_affinity": 1
+    }
+  },
+  {
+    "id": "cleric_life_domain",
+    "classId": "cleric",
+    "label": "Life Domain",
+    "description": "Pure support, healing, and compassionate durability.",
+    "weights": {
+      "support": 2,
+      "mercy": 2,
+      "resilience": 1
+    }
+  },
+  {
+    "id": "cleric_tempest_domain",
+    "classId": "cleric",
+    "label": "Tempest Domain",
+    "description": "Divine wrath through thunder, lightning, and destructive spectacle.",
+    "weights": {
+      "destruction": 2,
+      "frontline": 1,
+      "divine_affinity": 1,
+      "spotlight": 1
+    }
+  },
+  {
+    "id": "druid_circle_of_the_land",
+    "classId": "druid",
+    "label": "Circle of the Land",
+    "description": "Spell-focused nature mastery with control and breadth.",
+    "weights": {
+      "control": 1,
+      "complexity": 1,
+      "backline": 1
+    }
+  },
+  {
+    "id": "druid_circle_of_the_moon",
+    "classId": "druid",
+    "label": "Circle of the Moon",
+    "description": "Primal shapeshifting with frontline ferocity.",
+    "weights": {
+      "frontline": 2,
+      "resilience": 2,
+      "instinct": 2
+    }
+  },
+  {
+    "id": "fighter_battle_master",
+    "classId": "fighter",
+    "label": "Battle Master",
+    "description": "Tactical fighter built on precision and control.",
+    "weights": {
+      "control": 2,
+      "logic": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "fighter_champion",
+    "classId": "fighter",
+    "label": "Champion",
+    "description": "Straightforward physical excellence and durability.",
+    "weights": {
+      "resilience": 1,
+      "destruction": 1,
+      "complexity": -1
+    }
+  },
+  {
+    "id": "monk_way_of_shadow",
+    "classId": "monk",
+    "label": "Way of Shadow",
+    "description": "Stealth-focused monk with covert mobility and precision.",
+    "weights": {
+      "subtlety": 2,
+      "shadow_affinity": 1,
+      "mobility": 1
+    }
+  },
+  {
+    "id": "monk_way_of_open_hand",
+    "classId": "monk",
+    "label": "Way of the Open Hand",
+    "description": "Pure disciplined martial control.",
+    "weights": {
+      "control": 2,
+      "order": 1,
+      "honor": 1
+    }
+  },
+  {
+    "id": "paladin_oath_of_devotion",
+    "classId": "paladin",
+    "label": "Oath of Devotion",
+    "description": "Classic virtuous knight of duty and sacred order.",
+    "weights": {
+      "honor": 2,
+      "duty": 2,
+      "mercy": 1,
+      "order": 1
+    }
+  },
+  {
+    "id": "paladin_oath_of_vengeance",
+    "classId": "paladin",
+    "label": "Oath of Vengeance",
+    "description": "Relentless divine hunter driven by punishment and pursuit.",
+    "weights": {
+      "ruthlessness": 2,
+      "destruction": 1,
+      "mobility": 1,
+      "mercy": -1
+    }
+  },
+  {
+    "id": "ranger_hunter",
+    "classId": "ranger",
+    "label": "Hunter",
+    "description": "Focused predator optimized for tactical kills.",
+    "weights": {
+      "destruction": 1,
+      "subtlety": 1,
+      "control": 1
+    }
+  },
+  {
+    "id": "ranger_gloom_stalker",
+    "classId": "ranger",
+    "label": "Gloom Stalker",
+    "description": "Ambush specialist thriving in darkness and first-strike pressure.",
+    "weights": {
+      "subtlety": 2,
+      "shadow_affinity": 1,
+      "mobility": 1,
+      "ruthlessness": 1
+    }
+  },
+  {
+    "id": "rogue_arcane_trickster",
+    "classId": "rogue",
+    "label": "Arcane Trickster",
+    "description": "A rogue who augments cunning with selective magic.",
+    "weights": {
+      "arcane_affinity": 1,
+      "trickster_affinity": 2,
+      "control": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "rogue_assassin",
+    "classId": "rogue",
+    "label": "Assassin",
+    "description": "A lethal precision killer focused on ambush and ruthless timing.",
+    "weights": {
+      "ruthlessness": 2,
+      "subtlety": 2,
+      "mobility": 1
+    }
+  },
+  {
+    "id": "sorcerer_draconic_bloodline",
+    "classId": "sorcerer",
+    "label": "Draconic Bloodline",
+    "description": "Explosive innate magic with added durability and regal flair.",
+    "weights": {
+      "destruction": 2,
+      "resilience": 1,
+      "spotlight": 1,
+      "nobility": 1
+    }
+  },
+  {
+    "id": "sorcerer_wild_magic",
+    "classId": "sorcerer",
+    "label": "Wild Magic",
+    "description": "Unstable power with high chaos and unpredictable burst.",
+    "weights": {
+      "chaos": 3,
+      "instinct": 2,
+      "destruction": 1,
+      "control": -1
+    }
+  },
+  {
+    "id": "warlock_the_fiend",
+    "classId": "warlock",
+    "label": "The Fiend",
+    "description": "Aggressive pact magic with destructive and infernal flavor.",
+    "weights": {
+      "destruction": 2,
+      "shadow_affinity": 1,
+      "ruthlessness": 1
+    }
+  },
+  {
+    "id": "warlock_the_great_old_one",
+    "classId": "warlock",
+    "label": "The Great Old One",
+    "description": "Alien mental influence, strangeness, and subtle dread.",
+    "weights": {
+      "outsider": 2,
+      "control": 1,
+      "subtlety": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "wizard_school_of_evocation",
+    "classId": "wizard",
+    "label": "School of Evocation",
+    "description": "Disciplined magical artillery and battlefield blasting.",
+    "weights": {
+      "destruction": 2,
+      "control": 2,
+      "backline": 1
+    }
+  },
+  {
+    "id": "wizard_school_of_illusion",
+    "classId": "wizard",
+    "label": "School of Illusion",
+    "description": "Subtle reality-bending through deceit and manipulation.",
+    "weights": {
+      "subtlety": 2,
+      "trickster_affinity": 2,
+      "control": 1
+    }
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "paladin_devotion_conflict",
+    "label": "Devotion Paladin Contradiction",
+    "appliesTo": {
+      "classId": "paladin",
+      "subclassId": "paladin_oath_of_devotion"
+    },
+    "anyOf": [
+      {
+        "allOf": [
+          {
+            "trait": "duty",
+            "operator": "<",
+            "value": 30
+          },
+          {
+            "trait": "honor",
+            "operator": "<",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "allOf": [
+          {
+            "trait": "ruthlessness",
+            "operator": ">",
+            "value": 75
+          },
+          {
+            "trait": "mercy",
+            "operator": "<",
+            "value": 25
+          }
+        ]
+      }
+    ],
+    "penalty": 20,
+    "reason": "Devotion clashes with low duty, low honor, or extreme cruelty."
+  },
+  {
+    "id": "wizard_general_conflict",
+    "label": "Wizard Contradiction",
+    "appliesTo": {
+      "classId": "wizard"
+    },
+    "allOf": [
+      {
+        "trait": "logic",
+        "operator": "<",
+        "value": 25
+      },
+      {
+        "trait": "complexity",
+        "operator": "<",
+        "value": 25
+      }
+    ],
+    "penalty": 15,
+    "reason": "Wizard assumes analytical and high-complexity tolerance."
+  },
+  {
+    "id": "rogue_general_conflict",
+    "label": "Rogue Contradiction",
+    "appliesTo": {
+      "classId": "rogue"
+    },
+    "allOf": [
+      {
+        "trait": "subtlety",
+        "operator": "<",
+        "value": 25
+      },
+      {
+        "trait": "mobility",
+        "operator": "<",
+        "value": 25
+      }
+    ],
+    "penalty": 15,
+    "reason": "Rogue expects finesse, timing, and low-profile movement."
+  },
+  {
+    "id": "cleric_general_conflict",
+    "label": "Cleric Contradiction",
+    "appliesTo": {
+      "classId": "cleric"
+    },
+    "allOf": [
+      {
+        "trait": "divine_affinity",
+        "operator": "<",
+        "value": 20
+      },
+      {
+        "trait": "support",
+        "operator": "<",
+        "value": 20
+      }
+    ],
+    "penalty": 15,
+    "reason": "Cleric assumes at least some sacred or team-oriented motivation."
+  },
+  {
+    "id": "bard_general_conflict",
+    "label": "Bard Contradiction",
+    "appliesTo": {
+      "classId": "bard"
+    },
+    "allOf": [
+      {
+        "trait": "spotlight",
+        "operator": "<",
+        "value": 20
+      },
+      {
+        "trait": "support",
+        "operator": "<",
+        "value": 20
+      }
+    ],
+    "penalty": 12,
+    "reason": "Bard generally assumes presence, expression, or social influence."
+  },
+  {
+    "id": "barbarian_general_conflict",
+    "label": "Barbarian Contradiction",
+    "appliesTo": {
+      "classId": "barbarian"
+    },
+    "allOf": [
+      {
+        "trait": "instinct",
+        "operator": "<",
+        "value": 25
+      },
+      {
+        "trait": "frontline",
+        "operator": "<",
+        "value": 25
+      }
+    ],
+    "penalty": 15,
+    "reason": "Barbarian assumes physical commitment and instinct-forward action."
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "human",
+    "label": "Human",
+    "description": "Flexible baseline identity that can express duty, ambition, or freedom depending on context.",
+    "weights": {
+      "nobility": 1,
+      "leadership": 1,
+      "duty": 1,
+      "freedom": 1
+    }
+  },
+  {
+    "id": "elf",
+    "label": "Elf",
+    "description": "Refined, ancient, graceful, and often arcane-coded.",
+    "weights": {
+      "arcane_affinity": 1,
+      "control": 1,
+      "nobility": 2,
+      "subtlety": 1
+    }
+  },
+  {
+    "id": "dwarf",
+    "label": "Dwarf",
+    "description": "Stubborn, durable, duty-driven, and grounded.",
+    "weights": {
+      "resilience": 3,
+      "duty": 2,
+      "order": 1,
+      "frontline": 1
+    }
+  },
+  {
+    "id": "half_orc",
+    "label": "Half-Orc",
+    "description": "Intense, durable, intimidating, and physically forceful.",
+    "weights": {
+      "destruction": 2,
+      "frontline": 2,
+      "resilience": 2,
+      "instinct": 1
+    }
+  },
+  {
+    "id": "tiefling",
+    "label": "Tiefling",
+    "description": "Charismatic outsider marked by infernal or dark mystique.",
+    "weights": {
+      "outsider": 3,
+      "shadow_affinity": 2,
+      "arcane_affinity": 1,
+      "spotlight": 1
+    }
+  },
+  {
+    "id": "dragonborn",
+    "label": "Dragonborn",
+    "description": "Proud, forceful, noble, and visibly powerful.",
+    "weights": {
+      "nobility": 2,
+      "destruction": 1,
+      "frontline": 1,
+      "spotlight": 1
+    }
+  },
+  {
+    "id": "halfling",
+    "label": "Halfling",
+    "description": "Small but resilient, clever, and subtly capable.",
+    "weights": {
+      "trickster_affinity": 1,
+      "mobility": 1,
+      "mercy": 1,
+      "subtlety": 1
+    }
+  },
+  {
+    "id": "gnome",
+    "label": "Gnome",
+    "description": "Curious, clever, tinkering, and often magically inclined.",
+    "weights": {
+      "logic": 1,
+      "arcane_affinity": 1,
+      "trickster_affinity": 1,
+      "complexity": 1
+    }
+  },
+  {
+    "id": "tabaxi",
+    "label": "Tabaxi",
+    "description": "Fast, curious, expressive, and mobility-forward.",
+    "weights": {
+      "mobility": 3,
+      "subtlety": 1,
+      "freedom": 1,
+      "spotlight": 1
+    }
+  },
+  {
+    "id": "aasimar",
+    "label": "Aasimar",
+    "description": "Radiant, noble, purpose-driven, and divinely coded.",
+    "weights": {
+      "divine_affinity": 3,
+      "nobility": 2,
+      "mercy": 1,
+      "spotlight": 1
+    }
+  },
+  {
+    "id": "goblin",
+    "label": "Goblin",
+    "description": "Chaotic survivor with speed, cunning, and outsider energy.",
+    "weights": {
+      "trickster_affinity": 2,
+      "mobility": 1,
+      "chaos": 1,
+      "outsider": 1
+    }
+  },
+  {
+    "id": "firbolg",
+    "label": "Firbolg",
+    "description": "Gentle giant of the wild, rooted in primal calm and hidden strength.",
+    "weights": {
+      "primal_affinity": 2,
+      "mercy": 1,
+      "resilience": 1,
+      "subtlety": 1
+    }
+  }
+]

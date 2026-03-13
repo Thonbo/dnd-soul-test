@@ -1,0 +1,8854 @@
+[
+  {
+    "id": "q01",
+    "category": "identity",
+    "text": "Would you rather lead from the front, or influence events from the shadows?",
+    "optionA": {
+      "label": "Lead from the front",
+      "weights": {
+        "leadership": 2,
+        "frontline": 2,
+        "spotlight": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Influence from the shadows",
+      "weights": {
+        "subtlety": 2,
+        "solitude": 1,
+        "backline": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q02",
+    "category": "identity",
+    "text": "Would you rather uphold a code, or do whatever works?",
+    "optionA": {
+      "label": "Uphold a code",
+      "weights": {
+        "order": 2,
+        "honor": 2,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Do whatever works",
+      "weights": {
+        "pragmatism": 2,
+        "freedom": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q03",
+    "category": "identity",
+    "text": "Would you rather protect the weak, or reward the strong?",
+    "optionA": {
+      "label": "Protect the weak",
+      "weights": {
+        "mercy": 2,
+        "support": 2,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Reward the strong",
+      "weights": {
+        "ruthlessness": 2,
+        "pragmatism": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q04",
+    "category": "identity",
+    "text": "Would you rather master yourself, or unleash yourself?",
+    "optionA": {
+      "label": "Master yourself",
+      "weights": {
+        "control": 2,
+        "order": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Unleash yourself",
+      "weights": {
+        "chaos": 2,
+        "instinct": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q05",
+    "category": "identity",
+    "text": "Would you rather be respected, or be feared?",
+    "optionA": {
+      "label": "Be respected",
+      "weights": {
+        "nobility": 2,
+        "honor": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Be feared",
+      "weights": {
+        "shadow_affinity": 1,
+        "ruthlessness": 2,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q06",
+    "category": "identity",
+    "text": "Would you rather keep your word, or adapt to the moment?",
+    "optionA": {
+      "label": "Keep your word",
+      "weights": {
+        "honor": 2,
+        "duty": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Adapt to the moment",
+      "weights": {
+        "pragmatism": 2,
+        "freedom": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q07",
+    "category": "identity",
+    "text": "Would you rather seek truth, or seek power?",
+    "optionA": {
+      "label": "Seek truth",
+      "weights": {
+        "logic": 2,
+        "arcane_affinity": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Seek power",
+      "weights": {
+        "destruction": 1,
+        "shadow_affinity": 1,
+        "leadership": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q08",
+    "category": "identity",
+    "text": "Would you rather redeem an enemy, or end the threat?",
+    "optionA": {
+      "label": "Redeem an enemy",
+      "weights": {
+        "mercy": 2,
+        "divine_affinity": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "End the threat",
+      "weights": {
+        "ruthlessness": 2,
+        "destruction": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q09",
+    "category": "identity",
+    "text": "Would you rather belong to a cause, or belong to no one?",
+    "optionA": {
+      "label": "Belong to a cause",
+      "weights": {
+        "duty": 2,
+        "support": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Belong to no one",
+      "weights": {
+        "freedom": 2,
+        "solitude": 2,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q10",
+    "category": "identity",
+    "text": "Would you rather inherit a legacy, or forge your own path?",
+    "optionA": {
+      "label": "Inherit a legacy",
+      "weights": {
+        "nobility": 1,
+        "order": 1,
+        "duty": 2
+      }
+    },
+    "optionB": {
+      "label": "Forge your own path",
+      "weights": {
+        "freedom": 2,
+        "outsider": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q11",
+    "category": "power",
+    "text": "Would you rather study magic, or feel it surge through you?",
+    "optionA": {
+      "label": "Study magic",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 2,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Feel it surge through you",
+      "weights": {
+        "arcane_affinity": 2,
+        "instinct": 2,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q12",
+    "category": "power",
+    "text": "Would you rather borrow power from something greater, or rely only on yourself?",
+    "optionA": {
+      "label": "Borrow power from something greater",
+      "weights": {
+        "shadow_affinity": 1,
+        "divine_affinity": 1,
+        "duty": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Rely only on yourself",
+      "weights": {
+        "freedom": 2,
+        "instinct": 1,
+        "martial_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q13",
+    "category": "power",
+    "text": "Would you rather channel holy force, or wield forbidden force?",
+    "optionA": {
+      "label": "Channel holy force",
+      "weights": {
+        "divine_affinity": 2,
+        "mercy": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Wield forbidden force",
+      "weights": {
+        "shadow_affinity": 2,
+        "destruction": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q14",
+    "category": "power",
+    "text": "Would you rather command nature, or reshape reality?",
+    "optionA": {
+      "label": "Command nature",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Reshape reality",
+      "weights": {
+        "arcane_affinity": 2,
+        "control": 2,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q15",
+    "category": "power",
+    "text": "Would you rather summon aid, or become the weapon yourself?",
+    "optionA": {
+      "label": "Summon aid",
+      "weights": {
+        "support": 1,
+        "control": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Become the weapon yourself",
+      "weights": {
+        "frontline": 1,
+        "destruction": 2,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q16",
+    "category": "power",
+    "text": "Would you rather wield elegant power, or dangerous power?",
+    "optionA": {
+      "label": "Wield elegant power",
+      "weights": {
+        "control": 2,
+        "nobility": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Wield dangerous power",
+      "weights": {
+        "destruction": 2,
+        "chaos": 1,
+        "shadow_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q17",
+    "category": "power",
+    "text": "Would you rather bless allies, or curse enemies?",
+    "optionA": {
+      "label": "Bless allies",
+      "weights": {
+        "support": 2,
+        "divine_affinity": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Curse enemies",
+      "weights": {
+        "control": 1,
+        "shadow_affinity": 1,
+        "ruthlessness": 2
+      }
+    }
+  },
+  {
+    "id": "q18",
+    "category": "power",
+    "text": "Would you rather burn bright, or strike unseen?",
+    "optionA": {
+      "label": "Burn bright",
+      "weights": {
+        "destruction": 2,
+        "spotlight": 2,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Strike unseen",
+      "weights": {
+        "subtlety": 2,
+        "shadow_affinity": 1,
+        "backline": 1
+      }
+    }
+  },
+  {
+    "id": "q19",
+    "category": "power",
+    "text": "Would you rather command one perfected spell, or a vast spellbook?",
+    "optionA": {
+      "label": "Command one perfected spell",
+      "weights": {
+        "control": 1,
+        "instinct": 1,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Command a vast spellbook",
+      "weights": {
+        "logic": 2,
+        "complexity": 2,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q20",
+    "category": "power",
+    "text": "Would you rather speak to gods, or speak to monsters?",
+    "optionA": {
+      "label": "Speak to gods",
+      "weights": {
+        "divine_affinity": 2,
+        "duty": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Speak to monsters",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q21",
+    "category": "combat",
+    "text": "Would you rather stand your ground, or keep moving?",
+    "optionA": {
+      "label": "Stand your ground",
+      "weights": {
+        "frontline": 1,
+        "resilience": 2,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Keep moving",
+      "weights": {
+        "mobility": 2,
+        "freedom": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q22",
+    "category": "combat",
+    "text": "Would you rather hit hard once, or control the whole battlefield?",
+    "optionA": {
+      "label": "Hit hard once",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Control the whole battlefield",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q23",
+    "category": "combat",
+    "text": "Would you rather outlast opponents, or overwhelm them?",
+    "optionA": {
+      "label": "Outlast opponents",
+      "weights": {
+        "resilience": 2,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Overwhelm them",
+      "weights": {
+        "destruction": 2,
+        "chaos": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q24",
+    "category": "combat",
+    "text": "Would you rather duel one worthy foe, or dominate many at once?",
+    "optionA": {
+      "label": "Duel one worthy foe",
+      "weights": {
+        "honor": 1,
+        "frontline": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Dominate many at once",
+      "weights": {
+        "destruction": 2,
+        "spotlight": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q25",
+    "category": "combat",
+    "text": "Would you rather strike precisely, or swing wildly with force?",
+    "optionA": {
+      "label": "Strike precisely",
+      "weights": {
+        "subtlety": 1,
+        "logic": 1,
+        "control": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Swing wildly with force",
+      "weights": {
+        "destruction": 2,
+        "instinct": 1,
+        "martial_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q26",
+    "category": "combat",
+    "text": "Would you rather guard your allies, or hunt enemy leaders?",
+    "optionA": {
+      "label": "Guard your allies",
+      "weights": {
+        "support": 2,
+        "frontline": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Hunt enemy leaders",
+      "weights": {
+        "mobility": 1,
+        "subtlety": 1,
+        "ruthlessness": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q27",
+    "category": "combat",
+    "text": "Would you rather use steel, or use spells?",
+    "optionA": {
+      "label": "Use steel",
+      "weights": {
+        "martial_affinity": 2,
+        "frontline": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Use spells",
+      "weights": {
+        "arcane_affinity": 2,
+        "backline": 1,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q28",
+    "category": "combat",
+    "text": "Would you rather trap enemies, or chase them down?",
+    "optionA": {
+      "label": "Trap enemies",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Chase them down",
+      "weights": {
+        "mobility": 2,
+        "instinct": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q29",
+    "category": "combat",
+    "text": "Would you rather be impossible to kill, or impossible to catch?",
+    "optionA": {
+      "label": "Be impossible to kill",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Be impossible to catch",
+      "weights": {
+        "mobility": 2,
+        "freedom": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q30",
+    "category": "combat",
+    "text": "Would you rather win cleanly, or win creatively?",
+    "optionA": {
+      "label": "Win cleanly",
+      "weights": {
+        "order": 1,
+        "honor": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Win creatively",
+      "weights": {
+        "trickster_affinity": 2,
+        "chaos": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q31",
+    "category": "social",
+    "text": "Would you rather inspire a room, or disappear in it?",
+    "optionA": {
+      "label": "Inspire a room",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 2,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Disappear in it",
+      "weights": {
+        "solitude": 1,
+        "subtlety": 2,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q32",
+    "category": "social",
+    "text": "Would you rather be admired, or underestimated?",
+    "optionA": {
+      "label": "Be admired",
+      "weights": {
+        "spotlight": 2,
+        "nobility": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Be underestimated",
+      "weights": {
+        "subtlety": 1,
+        "trickster_affinity": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q33",
+    "category": "social",
+    "text": "Would you rather be the face, or the mind?",
+    "optionA": {
+      "label": "Be the face",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Be the mind",
+      "weights": {
+        "logic": 2,
+        "control": 1,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q34",
+    "category": "social",
+    "text": "Would you rather have loyal allies, or total independence?",
+    "optionA": {
+      "label": "Have loyal allies",
+      "weights": {
+        "support": 1,
+        "leadership": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Have total independence",
+      "weights": {
+        "freedom": 2,
+        "solitude": 2,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q35",
+    "category": "social",
+    "text": "Would you rather tell the truth plainly, or bend truth strategically?",
+    "optionA": {
+      "label": "Tell the truth plainly",
+      "weights": {
+        "honor": 2,
+        "order": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Bend truth strategically",
+      "weights": {
+        "trickster_affinity": 2,
+        "pragmatism": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q36",
+    "category": "social",
+    "text": "Would you rather be remembered as noble, or effective?",
+    "optionA": {
+      "label": "Be remembered as noble",
+      "weights": {
+        "nobility": 2,
+        "honor": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Be remembered as effective",
+      "weights": {
+        "pragmatism": 2,
+        "ruthlessness": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q37",
+    "category": "social",
+    "text": "Would you rather belong in the court, or on the road?",
+    "optionA": {
+      "label": "Belong in the court",
+      "weights": {
+        "nobility": 2,
+        "order": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Belong on the road",
+      "weights": {
+        "freedom": 2,
+        "mobility": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q38",
+    "category": "social",
+    "text": "Would you rather be loved, or obeyed?",
+    "optionA": {
+      "label": "Be loved",
+      "weights": {
+        "mercy": 1,
+        "support": 2,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Be obeyed",
+      "weights": {
+        "leadership": 1,
+        "ruthlessness": 1,
+        "order": 1
+      }
+    }
+  },
+  {
+    "id": "q39",
+    "category": "social",
+    "text": "Would you rather negotiate first, or act first?",
+    "optionA": {
+      "label": "Negotiate first",
+      "weights": {
+        "logic": 1,
+        "support": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Act first",
+      "weights": {
+        "instinct": 2,
+        "destruction": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q40",
+    "category": "social",
+    "text": "Would you rather stand apart, or stand above?",
+    "optionA": {
+      "label": "Stand apart",
+      "weights": {
+        "outsider": 2,
+        "solitude": 1,
+        "shadow_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Stand above",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "leadership": 1
+      }
+    }
+  },
+  {
+    "id": "q41",
+    "category": "aesthetic",
+    "text": "Would you rather feel ancient, or feel untamed?",
+    "optionA": {
+      "label": "Feel ancient",
+      "weights": {
+        "order": 1,
+        "arcane_affinity": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Feel untamed",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "mobility": 1
+      }
+    }
+  },
+  {
+    "id": "q42",
+    "category": "aesthetic",
+    "text": "Would you rather look human but different, or clearly not human at all?",
+    "optionA": {
+      "label": "Look human but different",
+      "weights": {
+        "outsider": 1,
+        "nobility": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Clearly not human at all",
+      "weights": {
+        "outsider": 2,
+        "shadow_affinity": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q43",
+    "category": "aesthetic",
+    "text": "Would you rather carry lineage, or mutation?",
+    "optionA": {
+      "label": "Carry lineage",
+      "weights": {
+        "nobility": 1,
+        "duty": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Carry mutation",
+      "weights": {
+        "chaos": 1,
+        "arcane_affinity": 1,
+        "outsider": 2
+      }
+    }
+  },
+  {
+    "id": "q44",
+    "category": "aesthetic",
+    "text": "Would you rather feel celestial, or feral?",
+    "optionA": {
+      "label": "Feel celestial",
+      "weights": {
+        "divine_affinity": 2,
+        "mercy": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Feel feral",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 2,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q45",
+    "category": "aesthetic",
+    "text": "Would you rather feel refined, or monstrous?",
+    "optionA": {
+      "label": "Feel refined",
+      "weights": {
+        "nobility": 2,
+        "control": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Feel monstrous",
+      "weights": {
+        "outsider": 2,
+        "destruction": 1,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q46",
+    "category": "aesthetic",
+    "text": "Would you rather be agile, or imposing?",
+    "optionA": {
+      "label": "Be agile",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Be imposing",
+      "weights": {
+        "frontline": 2,
+        "resilience": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q47",
+    "category": "aesthetic",
+    "text": "Would you rather feel mystical, or brutal?",
+    "optionA": {
+      "label": "Feel mystical",
+      "weights": {
+        "arcane_affinity": 1,
+        "divine_affinity": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Feel brutal",
+      "weights": {
+        "martial_affinity": 1,
+        "destruction": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q48",
+    "category": "aesthetic",
+    "text": "Would you rather be elegant in darkness, or radiant in daylight?",
+    "optionA": {
+      "label": "Be elegant in darkness",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "Be radiant in daylight",
+      "weights": {
+        "divine_affinity": 2,
+        "spotlight": 1,
+        "mercy": 1
+      }
+    }
+  },
+  {
+    "id": "q49",
+    "category": "aesthetic",
+    "text": "Would you rather survive through cunning, or through toughness?",
+    "optionA": {
+      "label": "Survive through cunning",
+      "weights": {
+        "trickster_affinity": 2,
+        "subtlety": 1,
+        "pragmatism": 1
+      }
+    },
+    "optionB": {
+      "label": "Survive through toughness",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "martial_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q50",
+    "category": "aesthetic",
+    "text": "Would you rather be feared as strange, or admired as exceptional?",
+    "optionA": {
+      "label": "Be feared as strange",
+      "weights": {
+        "outsider": 2,
+        "shadow_affinity": 1,
+        "solitude": 1
+      }
+    },
+    "optionB": {
+      "label": "Be admired as exceptional",
+      "weights": {
+        "spotlight": 2,
+        "nobility": 1,
+        "leadership": 1
+      }
+    }
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather defend a system, or defend a person?",
+    "optionA": {
+      "label": "Defend a system",
+      "weights": {
+        "order": 2,
+        "duty": 2,
+        "leadership": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Defend a person",
+      "weights": {
+        "mercy": 2,
+        "support": 2,
+        "instinct": 1,
+        "honor": 1
+      }
+    },
+    "id": "q051"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be dependable, or impossible to predict?",
+    "optionA": {
+      "label": "Dependable",
+      "weights": {
+        "duty": 2,
+        "order": 1,
+        "honor": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Impossible to predict",
+      "weights": {
+        "chaos": 2,
+        "freedom": 1,
+        "trickster_affinity": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q052"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather finish what you started, or chase what feels alive?",
+    "optionA": {
+      "label": "Finish what you started",
+      "weights": {
+        "duty": 2,
+        "order": 1,
+        "resilience": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Chase what feels alive",
+      "weights": {
+        "freedom": 2,
+        "instinct": 2,
+        "chaos": 1,
+        "mobility": 1
+      }
+    },
+    "id": "q053"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be guided by principle, or by momentum?",
+    "optionA": {
+      "label": "Guided by principle",
+      "weights": {
+        "honor": 2,
+        "logic": 1,
+        "order": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Guided by momentum",
+      "weights": {
+        "instinct": 2,
+        "chaos": 1,
+        "destruction": 1,
+        "freedom": 1
+      }
+    },
+    "id": "q054"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather stand with tradition, or reinvent the path?",
+    "optionA": {
+      "label": "Stand with tradition",
+      "weights": {
+        "order": 2,
+        "duty": 1,
+        "nobility": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Reinvent the path",
+      "weights": {
+        "freedom": 2,
+        "outsider": 1,
+        "arcane_affinity": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q055"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather carry responsibility, or refuse a leash?",
+    "optionA": {
+      "label": "Carry responsibility",
+      "weights": {
+        "duty": 2,
+        "leadership": 1,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Refuse a leash",
+      "weights": {
+        "freedom": 2,
+        "solitude": 1,
+        "outsider": 1,
+        "pragmatism": 1
+      }
+    },
+    "id": "q056"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather earn respect slowly, or seize impact fast?",
+    "optionA": {
+      "label": "Earn respect slowly",
+      "weights": {
+        "honor": 1,
+        "order": 1,
+        "resilience": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Seize impact fast",
+      "weights": {
+        "spotlight": 1,
+        "destruction": 1,
+        "pragmatism": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q057"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be steady under pressure, or explosive under pressure?",
+    "optionA": {
+      "label": "Steady under pressure",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "resilience": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Explosive under pressure",
+      "weights": {
+        "destruction": 2,
+        "instinct": 1,
+        "chaos": 1,
+        "frontline": 1
+      }
+    },
+    "id": "q058"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather obey your conscience, or obey the mission?",
+    "optionA": {
+      "label": "Obey your conscience",
+      "weights": {
+        "mercy": 2,
+        "honor": 1,
+        "logic": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Obey the mission",
+      "weights": {
+        "duty": 2,
+        "pragmatism": 1,
+        "order": 1,
+        "control": 1
+      }
+    },
+    "id": "q059"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be known for restraint, or for intensity?",
+    "optionA": {
+      "label": "Restraint",
+      "weights": {
+        "control": 2,
+        "order": 1,
+        "logic": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Intensity",
+      "weights": {
+        "destruction": 2,
+        "spotlight": 1,
+        "instinct": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q060"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather belong to a banner, or to a road?",
+    "optionA": {
+      "label": "A banner",
+      "weights": {
+        "duty": 2,
+        "leadership": 1,
+        "support": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "A road",
+      "weights": {
+        "freedom": 2,
+        "mobility": 1,
+        "solitude": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q061"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather gain influence, or keep your autonomy?",
+    "optionA": {
+      "label": "Gain influence",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "nobility": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Keep autonomy",
+      "weights": {
+        "freedom": 2,
+        "solitude": 1,
+        "outsider": 1,
+        "pragmatism": 1
+      }
+    },
+    "id": "q062"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather build something lasting, or burn bright now?",
+    "optionA": {
+      "label": "Build something lasting",
+      "weights": {
+        "order": 1,
+        "duty": 1,
+        "control": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Burn bright now",
+      "weights": {
+        "destruction": 2,
+        "spotlight": 1,
+        "chaos": 1,
+        "instinct": 1
+      }
+    },
+    "id": "q063"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather act with clean hands, or with effective hands?",
+    "optionA": {
+      "label": "Clean hands",
+      "weights": {
+        "honor": 2,
+        "mercy": 1,
+        "order": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Effective hands",
+      "weights": {
+        "pragmatism": 2,
+        "ruthlessness": 1,
+        "control": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q064"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather hold the line, or break the pattern?",
+    "optionA": {
+      "label": "Hold the line",
+      "weights": {
+        "frontline": 1,
+        "duty": 1,
+        "resilience": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Break the pattern",
+      "weights": {
+        "chaos": 2,
+        "freedom": 1,
+        "arcane_affinity": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "id": "q065"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be a guardian, or a catalyst?",
+    "optionA": {
+      "label": "A guardian",
+      "weights": {
+        "support": 2,
+        "duty": 1,
+        "frontline": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "A catalyst",
+      "weights": {
+        "chaos": 1,
+        "destruction": 1,
+        "leadership": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "id": "q066"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather commit deeply, or stay adaptable?",
+    "optionA": {
+      "label": "Commit deeply",
+      "weights": {
+        "duty": 2,
+        "honor": 1,
+        "order": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Stay adaptable",
+      "weights": {
+        "pragmatism": 2,
+        "freedom": 1,
+        "mobility": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "id": "q067"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be admired for discipline, or for nerve?",
+    "optionA": {
+      "label": "Discipline",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "martial_affinity": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Nerve",
+      "weights": {
+        "instinct": 2,
+        "destruction": 1,
+        "spotlight": 1,
+        "ruthlessness": 1
+      }
+    },
+    "id": "q068"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather preserve the old wisdom, or test a dangerous new idea?",
+    "optionA": {
+      "label": "Preserve old wisdom",
+      "weights": {
+        "logic": 1,
+        "order": 1,
+        "nobility": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Test a dangerous new idea",
+      "weights": {
+        "arcane_affinity": 2,
+        "chaos": 1,
+        "complexity": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q069"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be rooted, or be restless?",
+    "optionA": {
+      "label": "Rooted",
+      "weights": {
+        "order": 1,
+        "resilience": 1,
+        "duty": 1,
+        "primal_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Restless",
+      "weights": {
+        "mobility": 2,
+        "freedom": 1,
+        "solitude": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q070"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather sacrifice comfort, or sacrifice certainty?",
+    "optionA": {
+      "label": "Sacrifice comfort",
+      "weights": {
+        "duty": 1,
+        "honor": 1,
+        "resilience": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Sacrifice certainty",
+      "weights": {
+        "chaos": 1,
+        "arcane_affinity": 1,
+        "freedom": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q071"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be the anchor, or the spark?",
+    "optionA": {
+      "label": "The anchor",
+      "weights": {
+        "support": 1,
+        "resilience": 2,
+        "order": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "The spark",
+      "weights": {
+        "destruction": 1,
+        "spotlight": 1,
+        "chaos": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "id": "q072"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather trust proven methods, or personal instinct?",
+    "optionA": {
+      "label": "Proven methods",
+      "weights": {
+        "logic": 2,
+        "order": 1,
+        "control": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Personal instinct",
+      "weights": {
+        "instinct": 2,
+        "freedom": 1,
+        "primal_affinity": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q073"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather carry a burden alone, or share it openly?",
+    "optionA": {
+      "label": "Carry it alone",
+      "weights": {
+        "solitude": 2,
+        "resilience": 1,
+        "outsider": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Share it openly",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "mercy": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q074"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be precise in purpose, or vast in possibility?",
+    "optionA": {
+      "label": "Precise in purpose",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "honor": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Vast in possibility",
+      "weights": {
+        "arcane_affinity": 2,
+        "chaos": 1,
+        "freedom": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q075"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather answer to an oath, or to your own appetite?",
+    "optionA": {
+      "label": "An oath",
+      "weights": {
+        "duty": 2,
+        "honor": 2,
+        "divine_affinity": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Your own appetite",
+      "weights": {
+        "instinct": 2,
+        "freedom": 1,
+        "ruthlessness": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q076"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be composed, or untamable?",
+    "optionA": {
+      "label": "Composed",
+      "weights": {
+        "control": 2,
+        "order": 1,
+        "nobility": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Untamable",
+      "weights": {
+        "freedom": 2,
+        "primal_affinity": 1,
+        "chaos": 1,
+        "instinct": 1
+      }
+    },
+    "id": "q077"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather carry authority naturally, or earn it through cunning?",
+    "optionA": {
+      "label": "Carry authority naturally",
+      "weights": {
+        "leadership": 2,
+        "nobility": 1,
+        "spotlight": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Earn it through cunning",
+      "weights": {
+        "trickster_affinity": 2,
+        "pragmatism": 1,
+        "subtlety": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q078"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather heal a fracture, or exploit a weakness?",
+    "optionA": {
+      "label": "Heal a fracture",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "logic": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Exploit a weakness",
+      "weights": {
+        "pragmatism": 1,
+        "ruthlessness": 2,
+        "subtlety": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q079"
+  },
+  {
+    "category": "identity",
+    "text": "Would you rather be known as lawful, or as alive?",
+    "optionA": {
+      "label": "Lawful",
+      "weights": {
+        "order": 2,
+        "duty": 1,
+        "honor": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Alive",
+      "weights": {
+        "instinct": 2,
+        "freedom": 1,
+        "chaos": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q080"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather perfect a discipline, or awaken something wild?",
+    "optionA": {
+      "label": "Perfect a discipline",
+      "weights": {
+        "arcane_affinity": 1,
+        "logic": 2,
+        "control": 2,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Awaken something wild",
+      "weights": {
+        "arcane_affinity": 1,
+        "chaos": 2,
+        "instinct": 2,
+        "destruction": 1
+      }
+    },
+    "id": "q081"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather channel sunlight, or moonlit shadow?",
+    "optionA": {
+      "label": "Sunlight",
+      "weights": {
+        "divine_affinity": 2,
+        "spotlight": 1,
+        "mercy": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Moonlit shadow",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "outsider": 1,
+        "control": 1
+      }
+    },
+    "id": "q082"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather carve sigils, or call a storm?",
+    "optionA": {
+      "label": "Carve sigils",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 1,
+        "control": 2,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Call a storm",
+      "weights": {
+        "arcane_affinity": 1,
+        "destruction": 2,
+        "chaos": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q083"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather invoke an oath, or invoke an ancient hunger?",
+    "optionA": {
+      "label": "An oath",
+      "weights": {
+        "divine_affinity": 2,
+        "duty": 1,
+        "honor": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "An ancient hunger",
+      "weights": {
+        "shadow_affinity": 2,
+        "ruthlessness": 1,
+        "outsider": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q084"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather speak to the land, or to the dead?",
+    "optionA": {
+      "label": "Speak to the land",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "support": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Speak to the dead",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "control": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q085"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather borrow power cleanly, or take it at a cost?",
+    "optionA": {
+      "label": "Borrow power cleanly",
+      "weights": {
+        "divine_affinity": 1,
+        "arcane_affinity": 1,
+        "control": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Take it at a cost",
+      "weights": {
+        "shadow_affinity": 2,
+        "pragmatism": 1,
+        "destruction": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q086"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather wield one signature force, or many adaptable tools?",
+    "optionA": {
+      "label": "One signature force",
+      "weights": {
+        "destruction": 1,
+        "control": 1,
+        "instinct": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Many adaptable tools",
+      "weights": {
+        "arcane_affinity": 1,
+        "logic": 2,
+        "complexity": 2,
+        "control": 1
+      }
+    },
+    "id": "q087"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather transform yourself, or command forces around you?",
+    "optionA": {
+      "label": "Transform yourself",
+      "weights": {
+        "frontline": 1,
+        "resilience": 1,
+        "primal_affinity": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Command forces around you",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q088"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather bind power to rules, or let it spill past rules?",
+    "optionA": {
+      "label": "Bind to rules",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "order": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Let it spill past rules",
+      "weights": {
+        "chaos": 2,
+        "destruction": 1,
+        "arcane_affinity": 1,
+        "instinct": 1
+      }
+    },
+    "id": "q089"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather feel chosen, or self-made?",
+    "optionA": {
+      "label": "Chosen",
+      "weights": {
+        "divine_affinity": 2,
+        "nobility": 1,
+        "duty": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Self-made",
+      "weights": {
+        "arcane_affinity": 1,
+        "freedom": 1,
+        "logic": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q090"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather command fear, or command awe?",
+    "optionA": {
+      "label": "Command fear",
+      "weights": {
+        "shadow_affinity": 2,
+        "ruthlessness": 1,
+        "spotlight": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Command awe",
+      "weights": {
+        "divine_affinity": 1,
+        "arcane_affinity": 1,
+        "spotlight": 1,
+        "nobility": 1
+      }
+    },
+    "id": "q091"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather shape beasts, or shape stars?",
+    "optionA": {
+      "label": "Shape beasts",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "frontline": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Shape stars",
+      "weights": {
+        "arcane_affinity": 2,
+        "complexity": 1,
+        "control": 1,
+        "backline": 1
+      }
+    },
+    "id": "q092"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather call power through prayer, or through formula?",
+    "optionA": {
+      "label": "Prayer",
+      "weights": {
+        "divine_affinity": 2,
+        "support": 1,
+        "mercy": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Formula",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 2,
+        "complexity": 1,
+        "control": 1
+      }
+    },
+    "id": "q093"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather be a vessel, or an engine?",
+    "optionA": {
+      "label": "A vessel",
+      "weights": {
+        "divine_affinity": 1,
+        "shadow_affinity": 1,
+        "support": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "An engine",
+      "weights": {
+        "arcane_affinity": 1,
+        "destruction": 1,
+        "control": 1,
+        "resilience": 1
+      }
+    },
+    "id": "q094"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather turn invisible, or blaze brighter?",
+    "optionA": {
+      "label": "Turn invisible",
+      "weights": {
+        "subtlety": 2,
+        "shadow_affinity": 1,
+        "control": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Blaze brighter",
+      "weights": {
+        "destruction": 1,
+        "spotlight": 2,
+        "arcane_affinity": 1,
+        "frontline": 1
+      }
+    },
+    "id": "q095"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather animate objects, or animate spirits?",
+    "optionA": {
+      "label": "Animate objects",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 1,
+        "complexity": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Animate spirits",
+      "weights": {
+        "divine_affinity": 1,
+        "shadow_affinity": 1,
+        "outsider": 1,
+        "control": 1
+      }
+    },
+    "id": "q096"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather hold sacred fire, or forbidden frost?",
+    "optionA": {
+      "label": "Sacred fire",
+      "weights": {
+        "divine_affinity": 2,
+        "destruction": 1,
+        "spotlight": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Forbidden frost",
+      "weights": {
+        "arcane_affinity": 1,
+        "shadow_affinity": 1,
+        "control": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q097"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather make a pact, or break a limit?",
+    "optionA": {
+      "label": "Make a pact",
+      "weights": {
+        "shadow_affinity": 2,
+        "complexity": 1,
+        "outsider": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Break a limit",
+      "weights": {
+        "arcane_affinity": 1,
+        "chaos": 1,
+        "destruction": 1,
+        "freedom": 1
+      }
+    },
+    "id": "q098"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather have magic that protects, or magic that consumes?",
+    "optionA": {
+      "label": "Protects",
+      "weights": {
+        "support": 2,
+        "divine_affinity": 1,
+        "control": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Consumes",
+      "weights": {
+        "destruction": 2,
+        "shadow_affinity": 1,
+        "ruthlessness": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q099"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather awaken the forest, or fracture the sky?",
+    "optionA": {
+      "label": "Awaken the forest",
+      "weights": {
+        "primal_affinity": 2,
+        "support": 1,
+        "mobility": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Fracture the sky",
+      "weights": {
+        "arcane_affinity": 1,
+        "destruction": 2,
+        "spotlight": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q100"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather carry relics, or carry rituals?",
+    "optionA": {
+      "label": "Relics",
+      "weights": {
+        "divine_affinity": 1,
+        "nobility": 1,
+        "support": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Rituals",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 1,
+        "complexity": 1,
+        "control": 1
+      }
+    },
+    "id": "q101"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather summon a guide, or summon a weapon?",
+    "optionA": {
+      "label": "A guide",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "divine_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "A weapon",
+      "weights": {
+        "destruction": 2,
+        "arcane_affinity": 1,
+        "frontline": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q102"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather hold back dangerous power, or explore it fully?",
+    "optionA": {
+      "label": "Hold it back",
+      "weights": {
+        "control": 2,
+        "honor": 1,
+        "logic": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Explore it fully",
+      "weights": {
+        "arcane_affinity": 1,
+        "chaos": 1,
+        "destruction": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q103"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather your power feel inherited, or stolen?",
+    "optionA": {
+      "label": "Inherited",
+      "weights": {
+        "nobility": 1,
+        "divine_affinity": 1,
+        "arcane_affinity": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Stolen",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "pragmatism": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q104"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather grow power slowly, or spike it in moments?",
+    "optionA": {
+      "label": "Grow it slowly",
+      "weights": {
+        "control": 1,
+        "resilience": 1,
+        "logic": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Spike it in moments",
+      "weights": {
+        "destruction": 2,
+        "chaos": 1,
+        "instinct": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q105"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather empower allies, or eclipse them?",
+    "optionA": {
+      "label": "Empower allies",
+      "weights": {
+        "support": 2,
+        "divine_affinity": 1,
+        "leadership": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Eclipse them",
+      "weights": {
+        "spotlight": 2,
+        "destruction": 1,
+        "ruthlessness": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "id": "q106"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather weave illusions, or crush reality?",
+    "optionA": {
+      "label": "Weave illusions",
+      "weights": {
+        "trickster_affinity": 2,
+        "subtlety": 1,
+        "arcane_affinity": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Crush reality",
+      "weights": {
+        "destruction": 2,
+        "arcane_affinity": 1,
+        "spotlight": 1,
+        "chaos": 1
+      }
+    },
+    "id": "q107"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather call beasts to your side, or bind strangers to your service?",
+    "optionA": {
+      "label": "Call beasts",
+      "weights": {
+        "primal_affinity": 2,
+        "support": 1,
+        "instinct": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Bind strangers",
+      "weights": {
+        "shadow_affinity": 1,
+        "control": 2,
+        "ruthlessness": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q108"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather keep magic elegant, or let it get ugly?",
+    "optionA": {
+      "label": "Keep it elegant",
+      "weights": {
+        "control": 2,
+        "nobility": 1,
+        "arcane_affinity": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Let it get ugly",
+      "weights": {
+        "destruction": 2,
+        "shadow_affinity": 1,
+        "chaos": 1,
+        "ruthlessness": 1
+      }
+    },
+    "id": "q109"
+  },
+  {
+    "category": "power",
+    "text": "Would you rather wield magic like a surgeon, or like weather?",
+    "optionA": {
+      "label": "Like a surgeon",
+      "weights": {
+        "control": 2,
+        "logic": 2,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Like weather",
+      "weights": {
+        "destruction": 1,
+        "chaos": 2,
+        "primal_affinity": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q110"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather break their formation, or break their morale?",
+    "optionA": {
+      "label": "Break formation",
+      "weights": {
+        "frontline": 1,
+        "destruction": 1,
+        "martial_affinity": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Break morale",
+      "weights": {
+        "control": 1,
+        "shadow_affinity": 1,
+        "spotlight": 1,
+        "ruthlessness": 1
+      }
+    },
+    "id": "q111"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather absorb the hit, or never be there?",
+    "optionA": {
+      "label": "Absorb the hit",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Never be there",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "backline": 1,
+        "freedom": 1
+      }
+    },
+    "id": "q112"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather win by pressure, or by setup?",
+    "optionA": {
+      "label": "Pressure",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "instinct": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Setup",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "backline": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q113"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather commit early, or react late?",
+    "optionA": {
+      "label": "Commit early",
+      "weights": {
+        "frontline": 1,
+        "destruction": 1,
+        "instinct": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "React late",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "backline": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q114"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather guard the objective, or hunt the opening?",
+    "optionA": {
+      "label": "Guard the objective",
+      "weights": {
+        "support": 1,
+        "frontline": 1,
+        "resilience": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Hunt the opening",
+      "weights": {
+        "mobility": 1,
+        "subtlety": 1,
+        "pragmatism": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q115"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather hit the center, or peel the edges?",
+    "optionA": {
+      "label": "Hit the center",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "spotlight": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Peel the edges",
+      "weights": {
+        "subtlety": 1,
+        "mobility": 1,
+        "backline": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "id": "q116"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather win through repetition, or through one perfect read?",
+    "optionA": {
+      "label": "Repetition",
+      "weights": {
+        "resilience": 1,
+        "martial_affinity": 1,
+        "order": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "One perfect read",
+      "weights": {
+        "logic": 1,
+        "subtlety": 1,
+        "control": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q117"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather pin enemies down, or pull allies through danger?",
+    "optionA": {
+      "label": "Pin enemies down",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "logic": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Pull allies through danger",
+      "weights": {
+        "support": 2,
+        "mobility": 1,
+        "frontline": 1,
+        "mercy": 1
+      }
+    },
+    "id": "q118"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather duel with skill, or crash through with force?",
+    "optionA": {
+      "label": "Duel with skill",
+      "weights": {
+        "control": 1,
+        "honor": 1,
+        "martial_affinity": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Crash through with force",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "instinct": 1,
+        "resilience": 1
+      }
+    },
+    "id": "q119"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather hold a choke point, or create chaos behind enemy lines?",
+    "optionA": {
+      "label": "Hold a choke point",
+      "weights": {
+        "frontline": 1,
+        "resilience": 1,
+        "control": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Create chaos behind lines",
+      "weights": {
+        "mobility": 1,
+        "chaos": 2,
+        "subtlety": 1,
+        "destruction": 1
+      }
+    },
+    "id": "q120"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather spend resources now, or save them for the turn that matters?",
+    "optionA": {
+      "label": "Spend them now",
+      "weights": {
+        "instinct": 1,
+        "destruction": 1,
+        "frontline": 1,
+        "chaos": 1
+      }
+    },
+    "optionB": {
+      "label": "Save them",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "complexity": 1,
+        "backline": 1
+      }
+    },
+    "id": "q121"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather punish mistakes, or force mistakes?",
+    "optionA": {
+      "label": "Punish mistakes",
+      "weights": {
+        "control": 1,
+        "logic": 1,
+        "subtlety": 1,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Force mistakes",
+      "weights": {
+        "destruction": 1,
+        "spotlight": 1,
+        "chaos": 1,
+        "frontline": 1
+      }
+    },
+    "id": "q122"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather fight close enough to feel it, or far enough to shape it?",
+    "optionA": {
+      "label": "Close enough to feel it",
+      "weights": {
+        "frontline": 2,
+        "martial_affinity": 1,
+        "instinct": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Far enough to shape it",
+      "weights": {
+        "backline": 2,
+        "control": 1,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q123"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather finish a weakened enemy, or stabilize a collapsing ally?",
+    "optionA": {
+      "label": "Finish the enemy",
+      "weights": {
+        "ruthlessness": 1,
+        "destruction": 2,
+        "pragmatism": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Stabilize the ally",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "duty": 1,
+        "resilience": 1
+      }
+    },
+    "id": "q124"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather use terrain, or ignore terrain?",
+    "optionA": {
+      "label": "Use terrain",
+      "weights": {
+        "logic": 1,
+        "control": 1,
+        "mobility": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Ignore terrain",
+      "weights": {
+        "frontline": 1,
+        "resilience": 1,
+        "destruction": 1,
+        "martial_affinity": 1
+      }
+    },
+    "id": "q125"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather set the pace, or exploit their pace?",
+    "optionA": {
+      "label": "Set the pace",
+      "weights": {
+        "leadership": 1,
+        "spotlight": 1,
+        "frontline": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Exploit their pace",
+      "weights": {
+        "subtlety": 1,
+        "logic": 1,
+        "mobility": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "id": "q126"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather pressure one target relentlessly, or distribute pressure across many?",
+    "optionA": {
+      "label": "One target relentlessly",
+      "weights": {
+        "destruction": 1,
+        "frontline": 1,
+        "ruthlessness": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Across many",
+      "weights": {
+        "backline": 1,
+        "control": 1,
+        "arcane_affinity": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q127"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather create safety, or create fear?",
+    "optionA": {
+      "label": "Create safety",
+      "weights": {
+        "support": 2,
+        "resilience": 1,
+        "frontline": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Create fear",
+      "weights": {
+        "shadow_affinity": 1,
+        "ruthlessness": 2,
+        "control": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q128"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather rely on timing, or on durability?",
+    "optionA": {
+      "label": "Timing",
+      "weights": {
+        "mobility": 1,
+        "subtlety": 1,
+        "control": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Durability",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "martial_affinity": 1,
+        "order": 1
+      }
+    },
+    "id": "q129"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather hit first, or hit last and harder?",
+    "optionA": {
+      "label": "Hit first",
+      "weights": {
+        "mobility": 1,
+        "instinct": 1,
+        "destruction": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Hit last and harder",
+      "weights": {
+        "control": 1,
+        "destruction": 2,
+        "logic": 1,
+        "backline": 1
+      }
+    },
+    "id": "q130"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather chase a runner, or protect a caster?",
+    "optionA": {
+      "label": "Chase a runner",
+      "weights": {
+        "mobility": 2,
+        "frontline": 1,
+        "pragmatism": 1,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Protect a caster",
+      "weights": {
+        "support": 2,
+        "duty": 1,
+        "frontline": 1,
+        "resilience": 1
+      }
+    },
+    "id": "q131"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather disrupt concentration, or lock down movement?",
+    "optionA": {
+      "label": "Disrupt concentration",
+      "weights": {
+        "destruction": 1,
+        "subtlety": 1,
+        "control": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Lock down movement",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "logic": 1,
+        "support": 1
+      }
+    },
+    "id": "q132"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather bait a strike, or erase the attacker?",
+    "optionA": {
+      "label": "Bait a strike",
+      "weights": {
+        "subtlety": 1,
+        "control": 1,
+        "honor": 1,
+        "mobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Erase the attacker",
+      "weights": {
+        "destruction": 2,
+        "ruthlessness": 1,
+        "frontline": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q133"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather guard a flank, or open one?",
+    "optionA": {
+      "label": "Guard a flank",
+      "weights": {
+        "support": 1,
+        "frontline": 1,
+        "order": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Open one",
+      "weights": {
+        "mobility": 1,
+        "destruction": 1,
+        "subtlety": 1,
+        "pragmatism": 1
+      }
+    },
+    "id": "q134"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather win through attrition, or through tempo swings?",
+    "optionA": {
+      "label": "Attrition",
+      "weights": {
+        "resilience": 2,
+        "control": 1,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Tempo swings",
+      "weights": {
+        "chaos": 1,
+        "mobility": 1,
+        "destruction": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "id": "q135"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather keep the enemy visible, or make yourself unreadable?",
+    "optionA": {
+      "label": "Keep enemy visible",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "backline": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Make yourself unreadable",
+      "weights": {
+        "subtlety": 2,
+        "mobility": 1,
+        "trickster_affinity": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q136"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather frontline with a shield, or with terror?",
+    "optionA": {
+      "label": "With a shield",
+      "weights": {
+        "frontline": 2,
+        "support": 1,
+        "resilience": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "With terror",
+      "weights": {
+        "frontline": 1,
+        "shadow_affinity": 1,
+        "ruthlessness": 2,
+        "spotlight": 1
+      }
+    },
+    "id": "q137"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather trade blows, or trade positions?",
+    "optionA": {
+      "label": "Trade blows",
+      "weights": {
+        "frontline": 2,
+        "martial_affinity": 1,
+        "resilience": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Trade positions",
+      "weights": {
+        "mobility": 2,
+        "control": 1,
+        "subtlety": 1,
+        "backline": 1
+      }
+    },
+    "id": "q138"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather finish with steel, or finish with magic?",
+    "optionA": {
+      "label": "With steel",
+      "weights": {
+        "martial_affinity": 2,
+        "frontline": 1,
+        "control": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "With magic",
+      "weights": {
+        "arcane_affinity": 2,
+        "backline": 1,
+        "destruction": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q139"
+  },
+  {
+    "category": "combat",
+    "text": "Would you rather survive the longest, or matter the most each round?",
+    "optionA": {
+      "label": "Survive the longest",
+      "weights": {
+        "resilience": 2,
+        "support": 1,
+        "frontline": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Matter the most each round",
+      "weights": {
+        "spotlight": 2,
+        "destruction": 1,
+        "control": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "id": "q140"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather rally people, or read them quietly?",
+    "optionA": {
+      "label": "Rally people",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "support": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Read them quietly",
+      "weights": {
+        "subtlety": 2,
+        "logic": 1,
+        "solitude": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "id": "q141"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather reveal your intent, or keep them guessing?",
+    "optionA": {
+      "label": "Reveal it",
+      "weights": {
+        "honor": 2,
+        "leadership": 1,
+        "order": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Keep them guessing",
+      "weights": {
+        "subtlety": 2,
+        "trickster_affinity": 1,
+        "pragmatism": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q142"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be the spokesperson, or the unseen advisor?",
+    "optionA": {
+      "label": "Spokesperson",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "support": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Unseen advisor",
+      "weights": {
+        "logic": 1,
+        "subtlety": 2,
+        "backline": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q143"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather disarm with warmth, or with precision?",
+    "optionA": {
+      "label": "With warmth",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "leadership": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "With precision",
+      "weights": {
+        "logic": 2,
+        "control": 1,
+        "subtlety": 1,
+        "honor": 1
+      }
+    },
+    "id": "q144"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be invited in, or impossible to ignore?",
+    "optionA": {
+      "label": "Invited in",
+      "weights": {
+        "support": 1,
+        "mercy": 1,
+        "subtlety": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Impossible to ignore",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "destruction": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q145"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather win trust, or win leverage?",
+    "optionA": {
+      "label": "Win trust",
+      "weights": {
+        "honor": 2,
+        "support": 1,
+        "mercy": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Win leverage",
+      "weights": {
+        "pragmatism": 2,
+        "subtlety": 1,
+        "ruthlessness": 1,
+        "control": 1
+      }
+    },
+    "id": "q146"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather calm a room, or electrify it?",
+    "optionA": {
+      "label": "Calm it",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "mercy": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Electrify it",
+      "weights": {
+        "spotlight": 2,
+        "chaos": 1,
+        "leadership": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "id": "q147"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be approached, or pursue the conversation yourself?",
+    "optionA": {
+      "label": "Be approached",
+      "weights": {
+        "nobility": 1,
+        "spotlight": 1,
+        "solitude": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Pursue it yourself",
+      "weights": {
+        "leadership": 2,
+        "freedom": 1,
+        "support": 1,
+        "pragmatism": 1
+      }
+    },
+    "id": "q148"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be honest and blunt, or honest and careful?",
+    "optionA": {
+      "label": "Honest and blunt",
+      "weights": {
+        "honor": 1,
+        "frontline": 1,
+        "leadership": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Honest and careful",
+      "weights": {
+        "honor": 1,
+        "support": 1,
+        "logic": 1,
+        "mercy": 1
+      }
+    },
+    "id": "q149"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather charm through confidence, or through mystery?",
+    "optionA": {
+      "label": "Confidence",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "nobility": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Mystery",
+      "weights": {
+        "shadow_affinity": 1,
+        "subtlety": 2,
+        "outsider": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q150"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather earn loyalty, or command obedience?",
+    "optionA": {
+      "label": "Earn loyalty",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "leadership": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Command obedience",
+      "weights": {
+        "order": 1,
+        "leadership": 1,
+        "ruthlessness": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q151"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather speak first, or observe first?",
+    "optionA": {
+      "label": "Speak first",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "instinct": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Observe first",
+      "weights": {
+        "logic": 1,
+        "subtlety": 2,
+        "solitude": 1,
+        "control": 1
+      }
+    },
+    "id": "q152"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather share the spotlight, or own the moment?",
+    "optionA": {
+      "label": "Share it",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "mercy": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Own it",
+      "weights": {
+        "spotlight": 2,
+        "destruction": 1,
+        "nobility": 1,
+        "pragmatism": 1
+      }
+    },
+    "id": "q153"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be liked by many, or trusted by few?",
+    "optionA": {
+      "label": "Liked by many",
+      "weights": {
+        "spotlight": 1,
+        "support": 1,
+        "leadership": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Trusted by few",
+      "weights": {
+        "solitude": 1,
+        "honor": 1,
+        "support": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q154"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather persuade with story, or with evidence?",
+    "optionA": {
+      "label": "With story",
+      "weights": {
+        "spotlight": 1,
+        "leadership": 1,
+        "trickster_affinity": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "With evidence",
+      "weights": {
+        "logic": 2,
+        "control": 1,
+        "honor": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q155"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather reassure people, or sharpen them?",
+    "optionA": {
+      "label": "Reassure them",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "leadership": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Sharpen them",
+      "weights": {
+        "leadership": 1,
+        "ruthlessness": 1,
+        "pragmatism": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q156"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather signal status, or signal independence?",
+    "optionA": {
+      "label": "Signal status",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "leadership": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Signal independence",
+      "weights": {
+        "freedom": 2,
+        "outsider": 1,
+        "solitude": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q157"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather become indispensable, or unforgettable?",
+    "optionA": {
+      "label": "Indispensable",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "leadership": 1,
+        "pragmatism": 1
+      }
+    },
+    "optionB": {
+      "label": "Unforgettable",
+      "weights": {
+        "spotlight": 2,
+        "outsider": 1,
+        "chaos": 1,
+        "nobility": 1
+      }
+    },
+    "id": "q158"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather protect someone\u2019s dignity, or expose the real issue?",
+    "optionA": {
+      "label": "Protect dignity",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "honor": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Expose the issue",
+      "weights": {
+        "logic": 1,
+        "pragmatism": 1,
+        "control": 1,
+        "leadership": 1
+      }
+    },
+    "id": "q159"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather have a small circle, or a wide network?",
+    "optionA": {
+      "label": "Small circle",
+      "weights": {
+        "solitude": 1,
+        "support": 1,
+        "honor": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Wide network",
+      "weights": {
+        "leadership": 1,
+        "spotlight": 1,
+        "pragmatism": 1,
+        "nobility": 1
+      }
+    },
+    "id": "q160"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be a symbol, or a confidant?",
+    "optionA": {
+      "label": "A symbol",
+      "weights": {
+        "spotlight": 2,
+        "nobility": 1,
+        "leadership": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "A confidant",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "solitude": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q161"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather make an entrance, or make a connection?",
+    "optionA": {
+      "label": "Make an entrance",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "nobility": 1,
+        "chaos": 1
+      }
+    },
+    "optionB": {
+      "label": "Make a connection",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "subtlety": 1,
+        "honor": 1
+      }
+    },
+    "id": "q162"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather confront a lie publicly, or unravel it privately?",
+    "optionA": {
+      "label": "Publicly",
+      "weights": {
+        "honor": 2,
+        "spotlight": 1,
+        "leadership": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Privately",
+      "weights": {
+        "subtlety": 2,
+        "logic": 1,
+        "control": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q163"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather praise openly, or reward quietly?",
+    "optionA": {
+      "label": "Praise openly",
+      "weights": {
+        "support": 1,
+        "spotlight": 1,
+        "leadership": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Reward quietly",
+      "weights": {
+        "subtlety": 1,
+        "pragmatism": 1,
+        "support": 1,
+        "honor": 1
+      }
+    },
+    "id": "q164"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather influence culture, or influence decisions?",
+    "optionA": {
+      "label": "Influence culture",
+      "weights": {
+        "leadership": 1,
+        "spotlight": 1,
+        "support": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Influence decisions",
+      "weights": {
+        "control": 1,
+        "logic": 1,
+        "pragmatism": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q165"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be warm and readable, or cool and precise?",
+    "optionA": {
+      "label": "Warm and readable",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "spotlight": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Cool and precise",
+      "weights": {
+        "logic": 2,
+        "control": 1,
+        "subtlety": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q166"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather challenge someone directly, or redirect them skillfully?",
+    "optionA": {
+      "label": "Challenge directly",
+      "weights": {
+        "frontline": 1,
+        "honor": 1,
+        "leadership": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Redirect skillfully",
+      "weights": {
+        "trickster_affinity": 1,
+        "subtlety": 1,
+        "control": 1,
+        "logic": 1
+      }
+    },
+    "id": "q167"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather belong at the feast, or at the edge of the feast?",
+    "optionA": {
+      "label": "At the feast",
+      "weights": {
+        "spotlight": 1,
+        "nobility": 1,
+        "support": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "At the edge",
+      "weights": {
+        "outsider": 2,
+        "solitude": 1,
+        "shadow_affinity": 1,
+        "subtlety": 1
+      }
+    },
+    "id": "q168"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather be remembered for kindness, or for force of presence?",
+    "optionA": {
+      "label": "Kindness",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "honor": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Force of presence",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "destruction": 1,
+        "nobility": 1
+      }
+    },
+    "id": "q169"
+  },
+  {
+    "category": "social",
+    "text": "Would you rather earn a rival, or inspire an apprentice?",
+    "optionA": {
+      "label": "Earn a rival",
+      "weights": {
+        "spotlight": 1,
+        "frontline": 1,
+        "nobility": 1,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Inspire an apprentice",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "mercy": 1,
+        "logic": 1
+      }
+    },
+    "id": "q170"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel crowned, or feral?",
+    "optionA": {
+      "label": "Crowned",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "order": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Feral",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "mobility": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q171"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather wear polished steel, or scarred leather?",
+    "optionA": {
+      "label": "Polished steel",
+      "weights": {
+        "martial_affinity": 1,
+        "order": 1,
+        "nobility": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Scarred leather",
+      "weights": {
+        "primal_affinity": 1,
+        "mobility": 1,
+        "outsider": 1,
+        "instinct": 1
+      }
+    },
+    "id": "q172"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather glow softly, or smolder dangerously?",
+    "optionA": {
+      "label": "Glow softly",
+      "weights": {
+        "divine_affinity": 2,
+        "mercy": 1,
+        "spotlight": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Smolder dangerously",
+      "weights": {
+        "shadow_affinity": 1,
+        "destruction": 1,
+        "outsider": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q173"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look ancestral, or experimental?",
+    "optionA": {
+      "label": "Ancestral",
+      "weights": {
+        "nobility": 1,
+        "order": 1,
+        "duty": 1,
+        "primal_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Experimental",
+      "weights": {
+        "arcane_affinity": 1,
+        "chaos": 1,
+        "outsider": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q174"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel carved from stone, or woven from mist?",
+    "optionA": {
+      "label": "Carved from stone",
+      "weights": {
+        "resilience": 2,
+        "order": 1,
+        "frontline": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Woven from mist",
+      "weights": {
+        "subtlety": 2,
+        "shadow_affinity": 1,
+        "mobility": 1,
+        "backline": 1
+      }
+    },
+    "id": "q175"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather seem refined, or uncanny?",
+    "optionA": {
+      "label": "Refined",
+      "weights": {
+        "nobility": 2,
+        "control": 1,
+        "spotlight": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Uncanny",
+      "weights": {
+        "outsider": 2,
+        "shadow_affinity": 1,
+        "arcane_affinity": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q176"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather carry feathers, or horns?",
+    "optionA": {
+      "label": "Feathers",
+      "weights": {
+        "divine_affinity": 1,
+        "mobility": 1,
+        "spotlight": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Horns",
+      "weights": {
+        "outsider": 2,
+        "shadow_affinity": 1,
+        "destruction": 1,
+        "frontline": 1
+      }
+    },
+    "id": "q177"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel moon-blessed, or forge-marked?",
+    "optionA": {
+      "label": "Moon-blessed",
+      "weights": {
+        "shadow_affinity": 1,
+        "subtlety": 1,
+        "arcane_affinity": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "Forge-marked",
+      "weights": {
+        "martial_affinity": 1,
+        "order": 1,
+        "resilience": 1,
+        "frontline": 1
+      }
+    },
+    "id": "q178"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look swift, or immovable?",
+    "optionA": {
+      "label": "Swift",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "backline": 1,
+        "freedom": 1
+      }
+    },
+    "optionB": {
+      "label": "Immovable",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "order": 1,
+        "martial_affinity": 1
+      }
+    },
+    "id": "q179"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel wildborn, or starborn?",
+    "optionA": {
+      "label": "Wildborn",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "mobility": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "Starborn",
+      "weights": {
+        "arcane_affinity": 1,
+        "divine_affinity": 1,
+        "nobility": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q180"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather wear ritual symbols, or battle scars?",
+    "optionA": {
+      "label": "Ritual symbols",
+      "weights": {
+        "arcane_affinity": 1,
+        "divine_affinity": 1,
+        "complexity": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Battle scars",
+      "weights": {
+        "martial_affinity": 1,
+        "frontline": 1,
+        "resilience": 1,
+        "instinct": 1
+      }
+    },
+    "id": "q181"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look elegant in black, or bright in gold?",
+    "optionA": {
+      "label": "Elegant in black",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "nobility": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "Bright in gold",
+      "weights": {
+        "divine_affinity": 2,
+        "spotlight": 1,
+        "nobility": 1,
+        "honor": 1
+      }
+    },
+    "id": "q182"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather seem handcrafted, or naturally grown?",
+    "optionA": {
+      "label": "Handcrafted",
+      "weights": {
+        "arcane_affinity": 1,
+        "logic": 1,
+        "complexity": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Naturally grown",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "mobility": 1,
+        "mercy": 1
+      }
+    },
+    "id": "q183"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel regal, or dangerous?",
+    "optionA": {
+      "label": "Regal",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "honor": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Dangerous",
+      "weights": {
+        "destruction": 1,
+        "shadow_affinity": 1,
+        "outsider": 1,
+        "ruthlessness": 1
+      }
+    },
+    "id": "q184"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look ageless, or road-worn?",
+    "optionA": {
+      "label": "Ageless",
+      "weights": {
+        "nobility": 1,
+        "arcane_affinity": 1,
+        "control": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Road-worn",
+      "weights": {
+        "freedom": 1,
+        "mobility": 1,
+        "outsider": 1,
+        "resilience": 1
+      }
+    },
+    "id": "q185"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel luminous, or weathered?",
+    "optionA": {
+      "label": "Luminous",
+      "weights": {
+        "divine_affinity": 1,
+        "spotlight": 1,
+        "mercy": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Weathered",
+      "weights": {
+        "resilience": 2,
+        "pragmatism": 1,
+        "martial_affinity": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q186"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look precise, or overgrown?",
+    "optionA": {
+      "label": "Precise",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "order": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Overgrown",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "outsider": 1,
+        "mobility": 1
+      }
+    },
+    "id": "q187"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel courtly, or tribal?",
+    "optionA": {
+      "label": "Courtly",
+      "weights": {
+        "nobility": 2,
+        "order": 1,
+        "leadership": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Tribal",
+      "weights": {
+        "primal_affinity": 1,
+        "instinct": 1,
+        "frontline": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q188"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather carry a holy halo, or a haunted silhouette?",
+    "optionA": {
+      "label": "Holy halo",
+      "weights": {
+        "divine_affinity": 2,
+        "spotlight": 1,
+        "mercy": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Haunted silhouette",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "subtlety": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q189"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look minimal, or ornate?",
+    "optionA": {
+      "label": "Minimal",
+      "weights": {
+        "control": 1,
+        "subtlety": 1,
+        "logic": 1,
+        "solitude": 1
+      }
+    },
+    "optionB": {
+      "label": "Ornate",
+      "weights": {
+        "spotlight": 2,
+        "nobility": 1,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q190"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather seem civilized, or primal?",
+    "optionA": {
+      "label": "Civilized",
+      "weights": {
+        "order": 2,
+        "nobility": 1,
+        "honor": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Primal",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 2,
+        "frontline": 1,
+        "mobility": 1
+      }
+    },
+    "id": "q191"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel crystalline, or volcanic?",
+    "optionA": {
+      "label": "Crystalline",
+      "weights": {
+        "arcane_affinity": 1,
+        "control": 2,
+        "logic": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Volcanic",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "chaos": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q192"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look blessed, or cursed?",
+    "optionA": {
+      "label": "Blessed",
+      "weights": {
+        "divine_affinity": 2,
+        "mercy": 1,
+        "nobility": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Cursed",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "destruction": 1,
+        "solitude": 1
+      }
+    },
+    "id": "q193"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel noble-blooded, or self-forged?",
+    "optionA": {
+      "label": "Noble-blooded",
+      "weights": {
+        "nobility": 2,
+        "duty": 1,
+        "spotlight": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Self-forged",
+      "weights": {
+        "freedom": 1,
+        "resilience": 1,
+        "martial_affinity": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q194"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look airy, or rooted?",
+    "optionA": {
+      "label": "Airy",
+      "weights": {
+        "mobility": 2,
+        "freedom": 1,
+        "backline": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Rooted",
+      "weights": {
+        "resilience": 2,
+        "primal_affinity": 1,
+        "frontline": 1,
+        "order": 1
+      }
+    },
+    "id": "q195"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather feel eerie, or radiant?",
+    "optionA": {
+      "label": "Eerie",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "outsider": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Radiant",
+      "weights": {
+        "divine_affinity": 2,
+        "spotlight": 1,
+        "support": 1,
+        "honor": 1
+      }
+    },
+    "id": "q196"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather wear trophies, or relics?",
+    "optionA": {
+      "label": "Trophies",
+      "weights": {
+        "ruthlessness": 1,
+        "frontline": 1,
+        "destruction": 1,
+        "primal_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Relics",
+      "weights": {
+        "divine_affinity": 1,
+        "nobility": 1,
+        "support": 1,
+        "complexity": 1
+      }
+    },
+    "id": "q197"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather seem shadow-touched, or sun-forged?",
+    "optionA": {
+      "label": "Shadow-touched",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "subtlety": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Sun-forged",
+      "weights": {
+        "divine_affinity": 2,
+        "frontline": 1,
+        "honor": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q198"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather look lean and lethal, or broad and unstoppable?",
+    "optionA": {
+      "label": "Lean and lethal",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "destruction": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Broad and unstoppable",
+      "weights": {
+        "frontline": 2,
+        "resilience": 2,
+        "martial_affinity": 1,
+        "spotlight": 1
+      }
+    },
+    "id": "q199"
+  },
+  {
+    "category": "aesthetic",
+    "text": "Would you rather have the vibe of a cathedral, or a storm cave?",
+    "optionA": {
+      "label": "A cathedral",
+      "weights": {
+        "divine_affinity": 2,
+        "nobility": 1,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "A storm cave",
+      "weights": {
+        "primal_affinity": 1,
+        "destruction": 1,
+        "chaos": 1,
+        "outsider": 1
+      }
+    },
+    "id": "q200"
+  },
+  {
+    "id": "q201",
+    "category": "identity",
+    "text": "Would you rather defend a principle, or protect a result?",
+    "optionA": {
+      "label": "Defend a principle",
+      "weights": {
+        "honor": 2,
+        "order": 1,
+        "duty": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Protect a result",
+      "weights": {
+        "pragmatism": 2,
+        "control": 1,
+        "ruthlessness": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q202",
+    "category": "identity",
+    "text": "Would you rather be predictable, or impossible to contain?",
+    "optionA": {
+      "label": "Be predictable",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Be impossible to contain",
+      "weights": {
+        "chaos": 2,
+        "freedom": 2,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q203",
+    "category": "identity",
+    "text": "Would you rather carry responsibility, or keep your options open?",
+    "optionA": {
+      "label": "Carry responsibility",
+      "weights": {
+        "duty": 2,
+        "leadership": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Keep your options open",
+      "weights": {
+        "freedom": 2,
+        "pragmatism": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q204",
+    "category": "identity",
+    "text": "Would you rather judge by evidence, or by intent?",
+    "optionA": {
+      "label": "Judge by evidence",
+      "weights": {
+        "logic": 2,
+        "control": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Judge by intent",
+      "weights": {
+        "mercy": 1,
+        "instinct": 2,
+        "honor": 1
+      }
+    }
+  },
+  {
+    "id": "q205",
+    "category": "identity",
+    "text": "Would you rather forgive weakness, or punish failure?",
+    "optionA": {
+      "label": "Forgive weakness",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Punish failure",
+      "weights": {
+        "ruthlessness": 2,
+        "order": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q206",
+    "category": "identity",
+    "text": "Would you rather keep the peace, or force change?",
+    "optionA": {
+      "label": "Keep the peace",
+      "weights": {
+        "order": 2,
+        "support": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Force change",
+      "weights": {
+        "chaos": 1,
+        "destruction": 1,
+        "leadership": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q207",
+    "category": "identity",
+    "text": "Would you rather be bound by a vow, or guided by instinct?",
+    "optionA": {
+      "label": "Be bound by a vow",
+      "weights": {
+        "duty": 2,
+        "honor": 2,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Be guided by instinct",
+      "weights": {
+        "instinct": 2,
+        "freedom": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q208",
+    "category": "identity",
+    "text": "Would you rather solve problems cleanly, or creatively?",
+    "optionA": {
+      "label": "Solve them cleanly",
+      "weights": {
+        "logic": 1,
+        "order": 1,
+        "control": 2
+      }
+    },
+    "optionB": {
+      "label": "Solve them creatively",
+      "weights": {
+        "chaos": 1,
+        "trickster_affinity": 1,
+        "pragmatism": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q209",
+    "category": "identity",
+    "text": "Would you rather be steady under pressure, or dangerous under pressure?",
+    "optionA": {
+      "label": "Steady",
+      "weights": {
+        "control": 2,
+        "order": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Dangerous",
+      "weights": {
+        "destruction": 1,
+        "instinct": 1,
+        "ruthlessness": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q210",
+    "category": "identity",
+    "text": "Would you rather stand by your side, or your standards?",
+    "optionA": {
+      "label": "My side",
+      "weights": {
+        "mercy": 1,
+        "support": 2,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "My standards",
+      "weights": {
+        "honor": 2,
+        "order": 1,
+        "duty": 1
+      }
+    }
+  },
+  {
+    "id": "q211",
+    "category": "identity",
+    "text": "Would you rather commit early, or pivot late?",
+    "optionA": {
+      "label": "Commit early",
+      "weights": {
+        "duty": 1,
+        "order": 1,
+        "control": 2
+      }
+    },
+    "optionB": {
+      "label": "Pivot late",
+      "weights": {
+        "pragmatism": 2,
+        "freedom": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q212",
+    "category": "identity",
+    "text": "Would you rather be noble, or necessary?",
+    "optionA": {
+      "label": "Noble",
+      "weights": {
+        "nobility": 2,
+        "honor": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Necessary",
+      "weights": {
+        "pragmatism": 2,
+        "ruthlessness": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q213",
+    "category": "identity",
+    "text": "Would you rather preserve tradition, or break useful rules?",
+    "optionA": {
+      "label": "Preserve tradition",
+      "weights": {
+        "order": 2,
+        "duty": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Break useful rules",
+      "weights": {
+        "freedom": 1,
+        "pragmatism": 2,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q214",
+    "category": "identity",
+    "text": "Would you rather ask what is right, or what is possible?",
+    "optionA": {
+      "label": "What is right",
+      "weights": {
+        "honor": 2,
+        "divine_affinity": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "What is possible",
+      "weights": {
+        "logic": 1,
+        "arcane_affinity": 1,
+        "control": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q215",
+    "category": "identity",
+    "text": "Would you rather be trusted completely, or underestimated constantly?",
+    "optionA": {
+      "label": "Trusted completely",
+      "weights": {
+        "honor": 2,
+        "leadership": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Underestimated constantly",
+      "weights": {
+        "subtlety": 1,
+        "trickster_affinity": 1,
+        "solitude": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q216",
+    "category": "identity",
+    "text": "Would you rather hold the line, or break the pattern?",
+    "optionA": {
+      "label": "Hold the line",
+      "weights": {
+        "duty": 1,
+        "frontline": 1,
+        "resilience": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Break the pattern",
+      "weights": {
+        "chaos": 2,
+        "freedom": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q217",
+    "category": "identity",
+    "text": "Would you rather act out of conviction, or adaptation?",
+    "optionA": {
+      "label": "Conviction",
+      "weights": {
+        "honor": 2,
+        "duty": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Adaptation",
+      "weights": {
+        "pragmatism": 2,
+        "freedom": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q218",
+    "category": "identity",
+    "text": "Would you rather be difficult to move, or difficult to predict?",
+    "optionA": {
+      "label": "Difficult to move",
+      "weights": {
+        "resilience": 1,
+        "order": 1,
+        "control": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Difficult to predict",
+      "weights": {
+        "chaos": 1,
+        "subtlety": 1,
+        "trickster_affinity": 1,
+        "mobility": 1
+      }
+    }
+  },
+  {
+    "id": "q219",
+    "category": "identity",
+    "text": "Would you rather set the example, or expose the flaw?",
+    "optionA": {
+      "label": "Set the example",
+      "weights": {
+        "leadership": 2,
+        "honor": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Expose the flaw",
+      "weights": {
+        "logic": 1,
+        "subtlety": 1,
+        "control": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q220",
+    "category": "identity",
+    "text": "Would you rather be the one people lean on, or the one nobody sees coming?",
+    "optionA": {
+      "label": "Lean on",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Nobody sees coming",
+      "weights": {
+        "subtlety": 2,
+        "mobility": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q221",
+    "category": "identity",
+    "text": "Would you rather obey your compass, or redraw the map?",
+    "optionA": {
+      "label": "Obey your compass",
+      "weights": {
+        "honor": 1,
+        "duty": 1,
+        "order": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Redraw the map",
+      "weights": {
+        "freedom": 2,
+        "chaos": 1,
+        "logic": 1
+      }
+    }
+  },
+  {
+    "id": "q222",
+    "category": "identity",
+    "text": "Would you rather own your mistakes publicly, or quietly correct them?",
+    "optionA": {
+      "label": "Own them publicly",
+      "weights": {
+        "honor": 2,
+        "spotlight": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Quietly correct them",
+      "weights": {
+        "control": 1,
+        "subtlety": 1,
+        "pragmatism": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q223",
+    "category": "identity",
+    "text": "Would you rather carry guilt, or carry blame?",
+    "optionA": {
+      "label": "Carry guilt",
+      "weights": {
+        "mercy": 1,
+        "honor": 1,
+        "support": 1,
+        "solitude": 1
+      }
+    },
+    "optionB": {
+      "label": "Carry blame",
+      "weights": {
+        "leadership": 1,
+        "duty": 1,
+        "resilience": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q224",
+    "category": "identity",
+    "text": "Would you rather be a shield for ideals, or a weapon for reality?",
+    "optionA": {
+      "label": "Shield for ideals",
+      "weights": {
+        "support": 1,
+        "honor": 2,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Weapon for reality",
+      "weights": {
+        "destruction": 1,
+        "pragmatism": 2,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q225",
+    "category": "identity",
+    "text": "Would you rather tell a comforting truth, or a useful lie?",
+    "optionA": {
+      "label": "Comforting truth",
+      "weights": {
+        "honor": 2,
+        "mercy": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Useful lie",
+      "weights": {
+        "trickster_affinity": 2,
+        "pragmatism": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q226",
+    "category": "identity",
+    "text": "Would you rather carry discipline, or carry momentum?",
+    "optionA": {
+      "label": "Discipline",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Momentum",
+      "weights": {
+        "instinct": 1,
+        "chaos": 1,
+        "destruction": 1,
+        "mobility": 1
+      }
+    }
+  },
+  {
+    "id": "q227",
+    "category": "identity",
+    "text": "Would you rather be ruled by a promise, or by a hunger?",
+    "optionA": {
+      "label": "A promise",
+      "weights": {
+        "duty": 2,
+        "honor": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "A hunger",
+      "weights": {
+        "destruction": 1,
+        "shadow_affinity": 1,
+        "instinct": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q228",
+    "category": "identity",
+    "text": "Would you rather have a clean conscience, or a decisive outcome?",
+    "optionA": {
+      "label": "Clean conscience",
+      "weights": {
+        "mercy": 1,
+        "honor": 2,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Decisive outcome",
+      "weights": {
+        "control": 1,
+        "pragmatism": 2,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q229",
+    "category": "identity",
+    "text": "Would you rather be measured, or relentless?",
+    "optionA": {
+      "label": "Measured",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Relentless",
+      "weights": {
+        "destruction": 1,
+        "frontline": 1,
+        "ruthlessness": 1,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q230",
+    "category": "identity",
+    "text": "Would you rather pursue balance, or embrace extremes?",
+    "optionA": {
+      "label": "Pursue balance",
+      "weights": {
+        "control": 2,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Embrace extremes",
+      "weights": {
+        "chaos": 2,
+        "destruction": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q231",
+    "category": "identity",
+    "text": "Would you rather accept limits, or defy them?",
+    "optionA": {
+      "label": "Accept limits",
+      "weights": {
+        "logic": 1,
+        "order": 1,
+        "control": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Defy them",
+      "weights": {
+        "freedom": 2,
+        "arcane_affinity": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q232",
+    "category": "identity",
+    "text": "Would you rather owe someone, or need no one?",
+    "optionA": {
+      "label": "Owe someone",
+      "weights": {
+        "duty": 1,
+        "support": 1,
+        "leadership": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Need no one",
+      "weights": {
+        "solitude": 2,
+        "freedom": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q233",
+    "category": "identity",
+    "text": "Would you rather be the first to speak, or the last to leave?",
+    "optionA": {
+      "label": "First to speak",
+      "weights": {
+        "spotlight": 1,
+        "leadership": 2,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Last to leave",
+      "weights": {
+        "duty": 1,
+        "resilience": 1,
+        "support": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q234",
+    "category": "identity",
+    "text": "Would you rather defend innocence, or expose hypocrisy?",
+    "optionA": {
+      "label": "Defend innocence",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Expose hypocrisy",
+      "weights": {
+        "logic": 1,
+        "ruthlessness": 1,
+        "subtlety": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q235",
+    "category": "identity",
+    "text": "Would you rather be a model of restraint, or an engine of will?",
+    "optionA": {
+      "label": "Model of restraint",
+      "weights": {
+        "control": 2,
+        "order": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Engine of will",
+      "weights": {
+        "leadership": 1,
+        "destruction": 1,
+        "freedom": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q236",
+    "category": "identity",
+    "text": "Would you rather live by structure, or by adaptability?",
+    "optionA": {
+      "label": "Structure",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Adaptability",
+      "weights": {
+        "pragmatism": 2,
+        "freedom": 1,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q237",
+    "category": "identity",
+    "text": "Would you rather be respected by allies, or feared by enemies?",
+    "optionA": {
+      "label": "Respected by allies",
+      "weights": {
+        "support": 1,
+        "leadership": 1,
+        "nobility": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Feared by enemies",
+      "weights": {
+        "ruthlessness": 2,
+        "shadow_affinity": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q238",
+    "category": "identity",
+    "text": "Would you rather carry calm, or carry voltage?",
+    "optionA": {
+      "label": "Carry calm",
+      "weights": {
+        "control": 2,
+        "support": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Carry voltage",
+      "weights": {
+        "destruction": 2,
+        "chaos": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q239",
+    "category": "identity",
+    "text": "Would you rather be lawful with exceptions, or chaotic with values?",
+    "optionA": {
+      "label": "Lawful with exceptions",
+      "weights": {
+        "order": 2,
+        "pragmatism": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Chaotic with values",
+      "weights": {
+        "chaos": 1,
+        "honor": 1,
+        "freedom": 1,
+        "mercy": 1
+      }
+    }
+  },
+  {
+    "id": "q240",
+    "category": "identity",
+    "text": "Would you rather be judged by intent, or by consequences?",
+    "optionA": {
+      "label": "Intent",
+      "weights": {
+        "honor": 1,
+        "mercy": 1,
+        "instinct": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Consequences",
+      "weights": {
+        "logic": 1,
+        "pragmatism": 2,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q241",
+    "category": "power",
+    "text": "Would you rather master a ritual, or unleash a surge?",
+    "optionA": {
+      "label": "Master a ritual",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 2,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Unleash a surge",
+      "weights": {
+        "arcane_affinity": 2,
+        "instinct": 2,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q242",
+    "category": "power",
+    "text": "Would you rather borrow power from the stars, or from the roots?",
+    "optionA": {
+      "label": "From the stars",
+      "weights": {
+        "arcane_affinity": 2,
+        "nobility": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "From the roots",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "support": 1
+      }
+    }
+  },
+  {
+    "id": "q243",
+    "category": "power",
+    "text": "Would you rather command lightning, or command silence?",
+    "optionA": {
+      "label": "Lightning",
+      "weights": {
+        "destruction": 2,
+        "arcane_affinity": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Silence",
+      "weights": {
+        "control": 2,
+        "shadow_affinity": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q244",
+    "category": "power",
+    "text": "Would you rather be chosen by a god, or self-made by study?",
+    "optionA": {
+      "label": "Chosen by a god",
+      "weights": {
+        "divine_affinity": 2,
+        "duty": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Self-made by study",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 2,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q245",
+    "category": "power",
+    "text": "Would you rather call beasts, or bind spirits?",
+    "optionA": {
+      "label": "Call beasts",
+      "weights": {
+        "primal_affinity": 2,
+        "support": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Bind spirits",
+      "weights": {
+        "shadow_affinity": 1,
+        "control": 2,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q246",
+    "category": "power",
+    "text": "Would you rather heal the field, or scorch the field?",
+    "optionA": {
+      "label": "Heal the field",
+      "weights": {
+        "support": 2,
+        "divine_affinity": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Scorch the field",
+      "weights": {
+        "destruction": 2,
+        "arcane_affinity": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q247",
+    "category": "power",
+    "text": "Would you rather wield holy flame, or hungry void?",
+    "optionA": {
+      "label": "Holy flame",
+      "weights": {
+        "divine_affinity": 2,
+        "destruction": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Hungry void",
+      "weights": {
+        "shadow_affinity": 2,
+        "destruction": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q248",
+    "category": "power",
+    "text": "Would you rather know a few powers deeply, or many powers broadly?",
+    "optionA": {
+      "label": "A few deeply",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Many broadly",
+      "weights": {
+        "arcane_affinity": 1,
+        "complexity": 2,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q249",
+    "category": "power",
+    "text": "Would you rather have power that costs you, or power that answers you?",
+    "optionA": {
+      "label": "Costs me",
+      "weights": {
+        "shadow_affinity": 1,
+        "outsider": 1,
+        "ruthlessness": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Answers me",
+      "weights": {
+        "divine_affinity": 1,
+        "primal_affinity": 1,
+        "instinct": 1,
+        "support": 1
+      }
+    }
+  },
+  {
+    "id": "q250",
+    "category": "power",
+    "text": "Would you rather transform yourself, or transform the battlefield?",
+    "optionA": {
+      "label": "Transform myself",
+      "weights": {
+        "frontline": 1,
+        "resilience": 1,
+        "primal_affinity": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Transform the battlefield",
+      "weights": {
+        "control": 2,
+        "arcane_affinity": 1,
+        "backline": 1
+      }
+    }
+  },
+  {
+    "id": "q251",
+    "category": "power",
+    "text": "Would you rather channel power through words, or through blood?",
+    "optionA": {
+      "label": "Through words",
+      "weights": {
+        "arcane_affinity": 1,
+        "logic": 1,
+        "control": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Through blood",
+      "weights": {
+        "instinct": 2,
+        "shadow_affinity": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q252",
+    "category": "power",
+    "text": "Would you rather make miracles, or make anomalies?",
+    "optionA": {
+      "label": "Make miracles",
+      "weights": {
+        "divine_affinity": 2,
+        "support": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Make anomalies",
+      "weights": {
+        "arcane_affinity": 2,
+        "chaos": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q253",
+    "category": "power",
+    "text": "Would you rather protect with magic, or dominate with it?",
+    "optionA": {
+      "label": "Protect with magic",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Dominate with it",
+      "weights": {
+        "destruction": 1,
+        "control": 1,
+        "ruthlessness": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q254",
+    "category": "power",
+    "text": "Would you rather be a conduit, or a source?",
+    "optionA": {
+      "label": "A conduit",
+      "weights": {
+        "divine_affinity": 1,
+        "support": 1,
+        "duty": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "A source",
+      "weights": {
+        "arcane_affinity": 1,
+        "destruction": 1,
+        "spotlight": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q255",
+    "category": "power",
+    "text": "Would you rather summon allies, or erase obstacles?",
+    "optionA": {
+      "label": "Summon allies",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Erase obstacles",
+      "weights": {
+        "destruction": 2,
+        "arcane_affinity": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q256",
+    "category": "power",
+    "text": "Would you rather wield power with precision, or with excess?",
+    "optionA": {
+      "label": "With precision",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "With excess",
+      "weights": {
+        "destruction": 2,
+        "chaos": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q257",
+    "category": "power",
+    "text": "Would you rather have ancient magic, or unstable new magic?",
+    "optionA": {
+      "label": "Ancient magic",
+      "weights": {
+        "order": 1,
+        "arcane_affinity": 1,
+        "nobility": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Unstable new magic",
+      "weights": {
+        "chaos": 2,
+        "arcane_affinity": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q258",
+    "category": "power",
+    "text": "Would you rather turn darkness into cover, or into a weapon?",
+    "optionA": {
+      "label": "Into cover",
+      "weights": {
+        "shadow_affinity": 1,
+        "subtlety": 2,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Into a weapon",
+      "weights": {
+        "shadow_affinity": 2,
+        "destruction": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q259",
+    "category": "power",
+    "text": "Would you rather empower a group, or empower yourself?",
+    "optionA": {
+      "label": "Empower a group",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Empower yourself",
+      "weights": {
+        "frontline": 1,
+        "destruction": 1,
+        "freedom": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q260",
+    "category": "power",
+    "text": "Would you rather pray for power, or bargain for it?",
+    "optionA": {
+      "label": "Pray for power",
+      "weights": {
+        "divine_affinity": 2,
+        "duty": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Bargain for it",
+      "weights": {
+        "shadow_affinity": 2,
+        "pragmatism": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q261",
+    "category": "power",
+    "text": "Would you rather grow power slowly, or spike it suddenly?",
+    "optionA": {
+      "label": "Grow it slowly",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Spike it suddenly",
+      "weights": {
+        "destruction": 2,
+        "instinct": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q262",
+    "category": "power",
+    "text": "Would you rather shape weather, or shape minds?",
+    "optionA": {
+      "label": "Weather",
+      "weights": {
+        "primal_affinity": 1,
+        "destruction": 1,
+        "arcane_affinity": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Minds",
+      "weights": {
+        "control": 2,
+        "subtlety": 1,
+        "shadow_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q263",
+    "category": "power",
+    "text": "Would you rather bless a blade, or animate the room?",
+    "optionA": {
+      "label": "Bless a blade",
+      "weights": {
+        "divine_affinity": 1,
+        "support": 1,
+        "frontline": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Animate the room",
+      "weights": {
+        "arcane_affinity": 1,
+        "control": 2,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q264",
+    "category": "power",
+    "text": "Would you rather have clean power, or corrupting power?",
+    "optionA": {
+      "label": "Clean power",
+      "weights": {
+        "divine_affinity": 1,
+        "control": 2,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Corrupting power",
+      "weights": {
+        "shadow_affinity": 2,
+        "destruction": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q265",
+    "category": "power",
+    "text": "Would you rather cast from memory, or from intuition?",
+    "optionA": {
+      "label": "From memory",
+      "weights": {
+        "logic": 2,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "From intuition",
+      "weights": {
+        "instinct": 2,
+        "arcane_affinity": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q266",
+    "category": "power",
+    "text": "Would you rather invoke a symbol, or break one?",
+    "optionA": {
+      "label": "Invoke a symbol",
+      "weights": {
+        "divine_affinity": 1,
+        "order": 1,
+        "support": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Break one",
+      "weights": {
+        "shadow_affinity": 1,
+        "chaos": 1,
+        "ruthlessness": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q267",
+    "category": "power",
+    "text": "Would you rather embody fire, or embody storm?",
+    "optionA": {
+      "label": "Fire",
+      "weights": {
+        "destruction": 2,
+        "spotlight": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Storm",
+      "weights": {
+        "destruction": 1,
+        "mobility": 1,
+        "arcane_affinity": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q268",
+    "category": "power",
+    "text": "Would you rather have subtle magic, or theatrical magic?",
+    "optionA": {
+      "label": "Subtle magic",
+      "weights": {
+        "subtlety": 2,
+        "control": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Theatrical magic",
+      "weights": {
+        "spotlight": 2,
+        "destruction": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q269",
+    "category": "power",
+    "text": "Would you rather wield moonlight, or bloodlight?",
+    "optionA": {
+      "label": "Moonlight",
+      "weights": {
+        "divine_affinity": 1,
+        "primal_affinity": 1,
+        "control": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Bloodlight",
+      "weights": {
+        "shadow_affinity": 2,
+        "destruction": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q270",
+    "category": "power",
+    "text": "Would you rather lock fate in place, or gamble with it?",
+    "optionA": {
+      "label": "Lock fate in place",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Gamble with it",
+      "weights": {
+        "chaos": 2,
+        "instinct": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q271",
+    "category": "power",
+    "text": "Would you rather conjure tools, or conjure terror?",
+    "optionA": {
+      "label": "Conjure tools",
+      "weights": {
+        "control": 1,
+        "support": 1,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Conjure terror",
+      "weights": {
+        "shadow_affinity": 1,
+        "destruction": 1,
+        "spotlight": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q272",
+    "category": "power",
+    "text": "Would you rather make a ward, or make a breach?",
+    "optionA": {
+      "label": "Make a ward",
+      "weights": {
+        "support": 1,
+        "control": 2,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Make a breach",
+      "weights": {
+        "destruction": 2,
+        "arcane_affinity": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q273",
+    "category": "power",
+    "text": "Would you rather talk to ancestors, or to the storm?",
+    "optionA": {
+      "label": "Ancestors",
+      "weights": {
+        "divine_affinity": 1,
+        "primal_affinity": 1,
+        "support": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "The storm",
+      "weights": {
+        "destruction": 1,
+        "primal_affinity": 1,
+        "freedom": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q274",
+    "category": "power",
+    "text": "Would you rather wield power that comforts, or power that unsettles?",
+    "optionA": {
+      "label": "Comforts",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Unsettles",
+      "weights": {
+        "shadow_affinity": 1,
+        "outsider": 1,
+        "subtlety": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q275",
+    "category": "power",
+    "text": "Would you rather fuse with magic, or command it at a distance?",
+    "optionA": {
+      "label": "Fuse with it",
+      "weights": {
+        "instinct": 2,
+        "frontline": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Command it at a distance",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "logic": 1
+      }
+    }
+  },
+  {
+    "id": "q276",
+    "category": "power",
+    "text": "Would you rather have magic with rules, or magic with appetite?",
+    "optionA": {
+      "label": "With rules",
+      "weights": {
+        "order": 1,
+        "control": 2,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "With appetite",
+      "weights": {
+        "shadow_affinity": 1,
+        "destruction": 1,
+        "instinct": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q277",
+    "category": "power",
+    "text": "Would you rather create safety, or create awe?",
+    "optionA": {
+      "label": "Create safety",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Create awe",
+      "weights": {
+        "spotlight": 2,
+        "destruction": 1,
+        "nobility": 1
+      }
+    }
+  },
+  {
+    "id": "q278",
+    "category": "power",
+    "text": "Would you rather extend life, or command death?",
+    "optionA": {
+      "label": "Extend life",
+      "weights": {
+        "divine_affinity": 2,
+        "mercy": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Command death",
+      "weights": {
+        "shadow_affinity": 2,
+        "control": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q279",
+    "category": "power",
+    "text": "Would you rather sculpt force, or unravel it?",
+    "optionA": {
+      "label": "Sculpt force",
+      "weights": {
+        "control": 2,
+        "arcane_affinity": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Unravel it",
+      "weights": {
+        "chaos": 1,
+        "destruction": 2,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q280",
+    "category": "power",
+    "text": "Would you rather answer to a cosmic order, or to your own current?",
+    "optionA": {
+      "label": "Cosmic order",
+      "weights": {
+        "order": 2,
+        "divine_affinity": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Your own current",
+      "weights": {
+        "freedom": 2,
+        "instinct": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q281",
+    "category": "combat",
+    "text": "Would you rather close distance fast, or make distance matter?",
+    "optionA": {
+      "label": "Close distance fast",
+      "weights": {
+        "mobility": 1,
+        "frontline": 2,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Make distance matter",
+      "weights": {
+        "backline": 2,
+        "control": 1,
+        "logic": 1
+      }
+    }
+  },
+  {
+    "id": "q282",
+    "category": "combat",
+    "text": "Would you rather be a wall, or a blade?",
+    "optionA": {
+      "label": "A wall",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "A blade",
+      "weights": {
+        "destruction": 1,
+        "mobility": 1,
+        "subtlety": 1,
+        "martial_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q283",
+    "category": "combat",
+    "text": "Would you rather punish mistakes, or create them?",
+    "optionA": {
+      "label": "Punish mistakes",
+      "weights": {
+        "control": 1,
+        "logic": 1,
+        "destruction": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Create them",
+      "weights": {
+        "trickster_affinity": 1,
+        "control": 2,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q284",
+    "category": "combat",
+    "text": "Would you rather absorb pressure, or redirect it?",
+    "optionA": {
+      "label": "Absorb it",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Redirect it",
+      "weights": {
+        "control": 2,
+        "mobility": 1,
+        "logic": 1
+      }
+    }
+  },
+  {
+    "id": "q285",
+    "category": "combat",
+    "text": "Would you rather own one lane, or threaten every lane?",
+    "optionA": {
+      "label": "Own one lane",
+      "weights": {
+        "frontline": 1,
+        "control": 1,
+        "resilience": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Threaten every lane",
+      "weights": {
+        "mobility": 2,
+        "destruction": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q286",
+    "category": "combat",
+    "text": "Would you rather win with tempo, or with denial?",
+    "optionA": {
+      "label": "Tempo",
+      "weights": {
+        "mobility": 1,
+        "destruction": 1,
+        "instinct": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Denial",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "logic": 1
+      }
+    }
+  },
+  {
+    "id": "q287",
+    "category": "combat",
+    "text": "Would you rather survive the longest, or strike first?",
+    "optionA": {
+      "label": "Survive the longest",
+      "weights": {
+        "resilience": 2,
+        "order": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Strike first",
+      "weights": {
+        "mobility": 1,
+        "destruction": 2,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q288",
+    "category": "combat",
+    "text": "Would you rather peel enemies off allies, or isolate a target?",
+    "optionA": {
+      "label": "Peel enemies off allies",
+      "weights": {
+        "support": 2,
+        "frontline": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Isolate a target",
+      "weights": {
+        "subtlety": 1,
+        "mobility": 1,
+        "ruthlessness": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q289",
+    "category": "combat",
+    "text": "Would you rather lock down space, or exploit openings?",
+    "optionA": {
+      "label": "Lock down space",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Exploit openings",
+      "weights": {
+        "mobility": 1,
+        "instinct": 1,
+        "trickster_affinity": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q290",
+    "category": "combat",
+    "text": "Would you rather outposition, or outmuscle?",
+    "optionA": {
+      "label": "Outposition",
+      "weights": {
+        "mobility": 2,
+        "logic": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Outmuscle",
+      "weights": {
+        "frontline": 1,
+        "martial_affinity": 1,
+        "resilience": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q291",
+    "category": "combat",
+    "text": "Would you rather keep a formation, or break theirs?",
+    "optionA": {
+      "label": "Keep a formation",
+      "weights": {
+        "order": 2,
+        "support": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Break theirs",
+      "weights": {
+        "destruction": 2,
+        "mobility": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q292",
+    "category": "combat",
+    "text": "Would you rather pressure from range, or from presence?",
+    "optionA": {
+      "label": "From range",
+      "weights": {
+        "backline": 2,
+        "control": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "From presence",
+      "weights": {
+        "frontline": 2,
+        "spotlight": 1,
+        "martial_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q293",
+    "category": "combat",
+    "text": "Would you rather fight clean, or fight ugly?",
+    "optionA": {
+      "label": "Fight clean",
+      "weights": {
+        "honor": 1,
+        "control": 1,
+        "martial_affinity": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Fight ugly",
+      "weights": {
+        "pragmatism": 1,
+        "ruthlessness": 1,
+        "trickster_affinity": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q294",
+    "category": "combat",
+    "text": "Would you rather dominate initiative, or dominate endurance?",
+    "optionA": {
+      "label": "Initiative",
+      "weights": {
+        "mobility": 1,
+        "destruction": 1,
+        "subtlety": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Endurance",
+      "weights": {
+        "resilience": 2,
+        "frontline": 1,
+        "order": 1
+      }
+    }
+  },
+  {
+    "id": "q295",
+    "category": "combat",
+    "text": "Would you rather defend a choke point, or collapse a flank?",
+    "optionA": {
+      "label": "Defend a choke point",
+      "weights": {
+        "control": 2,
+        "frontline": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Collapse a flank",
+      "weights": {
+        "mobility": 2,
+        "destruction": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q296",
+    "category": "combat",
+    "text": "Would you rather commit resources early, or hold them for the turn?",
+    "optionA": {
+      "label": "Commit early",
+      "weights": {
+        "destruction": 1,
+        "instinct": 1,
+        "spotlight": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "Hold them",
+      "weights": {
+        "control": 2,
+        "logic": 1,
+        "backline": 1
+      }
+    }
+  },
+  {
+    "id": "q297",
+    "category": "combat",
+    "text": "Would you rather play attrition, or burst windows?",
+    "optionA": {
+      "label": "Attrition",
+      "weights": {
+        "resilience": 1,
+        "control": 1,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Burst windows",
+      "weights": {
+        "destruction": 2,
+        "mobility": 1,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q298",
+    "category": "combat",
+    "text": "Would you rather force a duel, or scatter the field?",
+    "optionA": {
+      "label": "Force a duel",
+      "weights": {
+        "frontline": 1,
+        "honor": 1,
+        "control": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Scatter the field",
+      "weights": {
+        "destruction": 1,
+        "control": 1,
+        "backline": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q299",
+    "category": "combat",
+    "text": "Would you rather be a threat every turn, or a disaster on one turn?",
+    "optionA": {
+      "label": "Threat every turn",
+      "weights": {
+        "control": 1,
+        "resilience": 1,
+        "martial_affinity": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Disaster on one turn",
+      "weights": {
+        "destruction": 2,
+        "spotlight": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q300",
+    "category": "combat",
+    "text": "Would you rather win by protection, or by pursuit?",
+    "optionA": {
+      "label": "Protection",
+      "weights": {
+        "support": 2,
+        "frontline": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Pursuit",
+      "weights": {
+        "mobility": 2,
+        "ruthlessness": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q301",
+    "category": "combat",
+    "text": "Would you rather command minions, or take the lead hit yourself?",
+    "optionA": {
+      "label": "Command minions",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Take the lead hit",
+      "weights": {
+        "frontline": 2,
+        "resilience": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q302",
+    "category": "combat",
+    "text": "Would you rather contest the center, or own the edges?",
+    "optionA": {
+      "label": "Contest the center",
+      "weights": {
+        "frontline": 1,
+        "control": 1,
+        "resilience": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Own the edges",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "backline": 1
+      }
+    }
+  },
+  {
+    "id": "q303",
+    "category": "combat",
+    "text": "Would you rather make enemies slower, or make yourself faster?",
+    "optionA": {
+      "label": "Enemies slower",
+      "weights": {
+        "control": 2,
+        "backline": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Yourself faster",
+      "weights": {
+        "mobility": 2,
+        "instinct": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q304",
+    "category": "combat",
+    "text": "Would you rather punish aggression, or bait it?",
+    "optionA": {
+      "label": "Punish aggression",
+      "weights": {
+        "control": 1,
+        "resilience": 1,
+        "frontline": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Bait it",
+      "weights": {
+        "trickster_affinity": 2,
+        "subtlety": 1,
+        "mobility": 1
+      }
+    }
+  },
+  {
+    "id": "q305",
+    "category": "combat",
+    "text": "Would you rather guard the objective, or delete the problem piece?",
+    "optionA": {
+      "label": "Guard the objective",
+      "weights": {
+        "support": 1,
+        "control": 1,
+        "frontline": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Delete the problem piece",
+      "weights": {
+        "destruction": 2,
+        "ruthlessness": 1,
+        "mobility": 1
+      }
+    }
+  },
+  {
+    "id": "q306",
+    "category": "combat",
+    "text": "Would you rather have clean lines of attack, or weird angles?",
+    "optionA": {
+      "label": "Clean lines",
+      "weights": {
+        "order": 1,
+        "control": 2,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Weird angles",
+      "weights": {
+        "subtlety": 1,
+        "mobility": 1,
+        "trickster_affinity": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q307",
+    "category": "combat",
+    "text": "Would you rather pressure with certainty, or with threat of chaos?",
+    "optionA": {
+      "label": "Certainty",
+      "weights": {
+        "control": 2,
+        "order": 1,
+        "backline": 1
+      }
+    },
+    "optionB": {
+      "label": "Threat of chaos",
+      "weights": {
+        "chaos": 2,
+        "destruction": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q308",
+    "category": "combat",
+    "text": "Would you rather reset the fight, or escalate it?",
+    "optionA": {
+      "label": "Reset it",
+      "weights": {
+        "control": 2,
+        "support": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Escalate it",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q309",
+    "category": "combat",
+    "text": "Would you rather specialize in one kill pattern, or improvise each turn?",
+    "optionA": {
+      "label": "One kill pattern",
+      "weights": {
+        "control": 2,
+        "martial_affinity": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Improvise each turn",
+      "weights": {
+        "chaos": 1,
+        "trickster_affinity": 1,
+        "mobility": 1,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q310",
+    "category": "combat",
+    "text": "Would you rather suppress, or flank?",
+    "optionA": {
+      "label": "Suppress",
+      "weights": {
+        "backline": 1,
+        "control": 2,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Flank",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q311",
+    "category": "combat",
+    "text": "Would you rather be feared up close, or feared across the map?",
+    "optionA": {
+      "label": "Up close",
+      "weights": {
+        "frontline": 2,
+        "spotlight": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "Across the map",
+      "weights": {
+        "backline": 2,
+        "destruction": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q312",
+    "category": "combat",
+    "text": "Would you rather answer chaos with structure, or structure with chaos?",
+    "optionA": {
+      "label": "Chaos with structure",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Structure with chaos",
+      "weights": {
+        "chaos": 2,
+        "trickster_affinity": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q313",
+    "category": "combat",
+    "text": "Would you rather keep your hands free, or your options free?",
+    "optionA": {
+      "label": "Hands free",
+      "weights": {
+        "mobility": 1,
+        "martial_affinity": 1,
+        "frontline": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "Options free",
+      "weights": {
+        "control": 1,
+        "backline": 1,
+        "arcane_affinity": 1,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q314",
+    "category": "combat",
+    "text": "Would you rather dominate with reach, or with timing?",
+    "optionA": {
+      "label": "With reach",
+      "weights": {
+        "frontline": 1,
+        "martial_affinity": 1,
+        "control": 1,
+        "resilience": 1
+      }
+    },
+    "optionB": {
+      "label": "With timing",
+      "weights": {
+        "subtlety": 1,
+        "logic": 1,
+        "mobility": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q315",
+    "category": "combat",
+    "text": "Would you rather bait cooldowns, or brute-force them?",
+    "optionA": {
+      "label": "Bait cooldowns",
+      "weights": {
+        "trickster_affinity": 1,
+        "control": 1,
+        "subtlety": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Brute-force them",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q316",
+    "category": "combat",
+    "text": "Would you rather fight as a hammer, or as a net?",
+    "optionA": {
+      "label": "A hammer",
+      "weights": {
+        "destruction": 2,
+        "martial_affinity": 1,
+        "frontline": 1
+      }
+    },
+    "optionB": {
+      "label": "A net",
+      "weights": {
+        "control": 2,
+        "support": 1,
+        "backline": 1
+      }
+    }
+  },
+  {
+    "id": "q317",
+    "category": "combat",
+    "text": "Would you rather break concentration, or break morale?",
+    "optionA": {
+      "label": "Break concentration",
+      "weights": {
+        "control": 1,
+        "logic": 1,
+        "mobility": 1,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Break morale",
+      "weights": {
+        "spotlight": 1,
+        "ruthlessness": 1,
+        "shadow_affinity": 1,
+        "support": 1
+      }
+    }
+  },
+  {
+    "id": "q318",
+    "category": "combat",
+    "text": "Would you rather trade blows, or avoid trades entirely?",
+    "optionA": {
+      "label": "Trade blows",
+      "weights": {
+        "frontline": 2,
+        "resilience": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Avoid trades entirely",
+      "weights": {
+        "mobility": 2,
+        "subtlety": 1,
+        "backline": 1
+      }
+    }
+  },
+  {
+    "id": "q319",
+    "category": "combat",
+    "text": "Would you rather hold threat, or shed threat?",
+    "optionA": {
+      "label": "Hold threat",
+      "weights": {
+        "frontline": 2,
+        "support": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Shed threat",
+      "weights": {
+        "subtlety": 2,
+        "mobility": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q320",
+    "category": "combat",
+    "text": "Would you rather keep enemies honest, or keep allies alive?",
+    "optionA": {
+      "label": "Keep enemies honest",
+      "weights": {
+        "control": 1,
+        "destruction": 1,
+        "frontline": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "Keep allies alive",
+      "weights": {
+        "support": 2,
+        "resilience": 1,
+        "divine_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q321",
+    "category": "social",
+    "text": "Would you rather rally a crowd, or read a room?",
+    "optionA": {
+      "label": "Rally a crowd",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 2,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Read a room",
+      "weights": {
+        "subtlety": 2,
+        "logic": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q322",
+    "category": "social",
+    "text": "Would you rather be the spokesperson, or the whisper network?",
+    "optionA": {
+      "label": "Spokesperson",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Whisper network",
+      "weights": {
+        "subtlety": 2,
+        "trickster_affinity": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q323",
+    "category": "social",
+    "text": "Would you rather build loyalty, or build leverage?",
+    "optionA": {
+      "label": "Build loyalty",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Build leverage",
+      "weights": {
+        "pragmatism": 2,
+        "control": 1,
+        "ruthlessness": 1
+      }
+    }
+  },
+  {
+    "id": "q324",
+    "category": "social",
+    "text": "Would you rather disarm with charm, or with insight?",
+    "optionA": {
+      "label": "With charm",
+      "weights": {
+        "spotlight": 1,
+        "leadership": 1,
+        "support": 1,
+        "trickster_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "With insight",
+      "weights": {
+        "logic": 2,
+        "subtlety": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q325",
+    "category": "social",
+    "text": "Would you rather host the feast, or leave before dessert?",
+    "optionA": {
+      "label": "Host the feast",
+      "weights": {
+        "spotlight": 1,
+        "support": 2,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Leave before dessert",
+      "weights": {
+        "solitude": 2,
+        "outsider": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q326",
+    "category": "social",
+    "text": "Would you rather be publicly admired, or privately indispensable?",
+    "optionA": {
+      "label": "Publicly admired",
+      "weights": {
+        "spotlight": 2,
+        "nobility": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Privately indispensable",
+      "weights": {
+        "support": 1,
+        "control": 1,
+        "solitude": 1,
+        "logic": 1
+      }
+    }
+  },
+  {
+    "id": "q327",
+    "category": "social",
+    "text": "Would you rather tell stories, or decode motives?",
+    "optionA": {
+      "label": "Tell stories",
+      "weights": {
+        "spotlight": 1,
+        "leadership": 1,
+        "trickster_affinity": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Decode motives",
+      "weights": {
+        "logic": 2,
+        "subtlety": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q328",
+    "category": "social",
+    "text": "Would you rather be approachable, or intimidating?",
+    "optionA": {
+      "label": "Approachable",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Intimidating",
+      "weights": {
+        "ruthlessness": 2,
+        "spotlight": 1,
+        "shadow_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q329",
+    "category": "social",
+    "text": "Would you rather keep conversations honest, or useful?",
+    "optionA": {
+      "label": "Honest",
+      "weights": {
+        "honor": 2,
+        "support": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Useful",
+      "weights": {
+        "pragmatism": 2,
+        "subtlety": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q330",
+    "category": "social",
+    "text": "Would you rather be the peacemaker, or the instigator?",
+    "optionA": {
+      "label": "Peacemaker",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Instigator",
+      "weights": {
+        "chaos": 2,
+        "spotlight": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q331",
+    "category": "social",
+    "text": "Would you rather earn trust slowly, or command attention immediately?",
+    "optionA": {
+      "label": "Earn trust slowly",
+      "weights": {
+        "honor": 1,
+        "support": 1,
+        "logic": 1,
+        "solitude": 1
+      }
+    },
+    "optionB": {
+      "label": "Command attention immediately",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "nobility": 1
+      }
+    }
+  },
+  {
+    "id": "q332",
+    "category": "social",
+    "text": "Would you rather mentor someone, or challenge them?",
+    "optionA": {
+      "label": "Mentor them",
+      "weights": {
+        "support": 2,
+        "leadership": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Challenge them",
+      "weights": {
+        "ruthlessness": 1,
+        "logic": 1,
+        "frontline": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q333",
+    "category": "social",
+    "text": "Would you rather be in the circle, or above it?",
+    "optionA": {
+      "label": "In the circle",
+      "weights": {
+        "support": 1,
+        "leadership": 1,
+        "mercy": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Above it",
+      "weights": {
+        "nobility": 1,
+        "spotlight": 1,
+        "control": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q334",
+    "category": "social",
+    "text": "Would you rather be quietly competent, or loudly unforgettable?",
+    "optionA": {
+      "label": "Quietly competent",
+      "weights": {
+        "logic": 1,
+        "control": 1,
+        "solitude": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Loudly unforgettable",
+      "weights": {
+        "spotlight": 2,
+        "trickster_affinity": 1,
+        "leadership": 1
+      }
+    }
+  },
+  {
+    "id": "q335",
+    "category": "social",
+    "text": "Would you rather smooth conflict, or expose tension?",
+    "optionA": {
+      "label": "Smooth it",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Expose it",
+      "weights": {
+        "logic": 1,
+        "ruthlessness": 1,
+        "spotlight": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q336",
+    "category": "social",
+    "text": "Would you rather earn status, or refuse it?",
+    "optionA": {
+      "label": "Earn status",
+      "weights": {
+        "nobility": 2,
+        "leadership": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Refuse it",
+      "weights": {
+        "freedom": 2,
+        "outsider": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q337",
+    "category": "social",
+    "text": "Would you rather be admired for grace, or feared for clarity?",
+    "optionA": {
+      "label": "Grace",
+      "weights": {
+        "nobility": 1,
+        "support": 1,
+        "spotlight": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Clarity",
+      "weights": {
+        "logic": 1,
+        "ruthlessness": 1,
+        "control": 1,
+        "leadership": 1
+      }
+    }
+  },
+  {
+    "id": "q338",
+    "category": "social",
+    "text": "Would you rather negotiate terms, or force momentum?",
+    "optionA": {
+      "label": "Negotiate terms",
+      "weights": {
+        "control": 1,
+        "logic": 1,
+        "support": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Force momentum",
+      "weights": {
+        "leadership": 1,
+        "destruction": 1,
+        "spotlight": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q339",
+    "category": "social",
+    "text": "Would you rather belong to a guild, or a rumor?",
+    "optionA": {
+      "label": "A guild",
+      "weights": {
+        "duty": 1,
+        "order": 1,
+        "support": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "A rumor",
+      "weights": {
+        "outsider": 2,
+        "subtlety": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q340",
+    "category": "social",
+    "text": "Would you rather protect a reputation, or weaponize one?",
+    "optionA": {
+      "label": "Protect it",
+      "weights": {
+        "honor": 1,
+        "nobility": 1,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Weaponize it",
+      "weights": {
+        "trickster_affinity": 1,
+        "control": 1,
+        "ruthlessness": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q341",
+    "category": "social",
+    "text": "Would you rather inspire by example, or by pressure?",
+    "optionA": {
+      "label": "By example",
+      "weights": {
+        "honor": 1,
+        "leadership": 2,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "By pressure",
+      "weights": {
+        "control": 1,
+        "ruthlessness": 1,
+        "spotlight": 1,
+        "order": 1
+      }
+    }
+  },
+  {
+    "id": "q342",
+    "category": "social",
+    "text": "Would you rather carry secrets, or collect them?",
+    "optionA": {
+      "label": "Carry them",
+      "weights": {
+        "honor": 1,
+        "solitude": 1,
+        "support": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Collect them",
+      "weights": {
+        "subtlety": 2,
+        "logic": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q343",
+    "category": "social",
+    "text": "Would you rather be easy to like, or hard to forget?",
+    "optionA": {
+      "label": "Easy to like",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Hard to forget",
+      "weights": {
+        "spotlight": 2,
+        "outsider": 1,
+        "nobility": 1
+      }
+    }
+  },
+  {
+    "id": "q344",
+    "category": "social",
+    "text": "Would you rather run a table, or haunt the edge of it?",
+    "optionA": {
+      "label": "Run a table",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Haunt the edge",
+      "weights": {
+        "solitude": 2,
+        "outsider": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q345",
+    "category": "social",
+    "text": "Would you rather answer directly, or answer artfully?",
+    "optionA": {
+      "label": "Directly",
+      "weights": {
+        "honor": 2,
+        "logic": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Artfully",
+      "weights": {
+        "trickster_affinity": 2,
+        "spotlight": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q346",
+    "category": "social",
+    "text": "Would you rather be the standard, or the exception?",
+    "optionA": {
+      "label": "The standard",
+      "weights": {
+        "order": 2,
+        "nobility": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "The exception",
+      "weights": {
+        "outsider": 2,
+        "freedom": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q347",
+    "category": "social",
+    "text": "Would you rather be included, or be interesting?",
+    "optionA": {
+      "label": "Included",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "duty": 1
+      }
+    },
+    "optionB": {
+      "label": "Interesting",
+      "weights": {
+        "outsider": 1,
+        "spotlight": 1,
+        "trickster_affinity": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q348",
+    "category": "social",
+    "text": "Would you rather maintain harmony, or test loyalty?",
+    "optionA": {
+      "label": "Maintain harmony",
+      "weights": {
+        "support": 2,
+        "control": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Test loyalty",
+      "weights": {
+        "ruthlessness": 1,
+        "leadership": 1,
+        "subtlety": 1,
+        "order": 1
+      }
+    }
+  },
+  {
+    "id": "q349",
+    "category": "social",
+    "text": "Would you rather be diplomatic, or magnetic?",
+    "optionA": {
+      "label": "Diplomatic",
+      "weights": {
+        "control": 1,
+        "support": 1,
+        "logic": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Magnetic",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q350",
+    "category": "social",
+    "text": "Would you rather keep your name clean, or powerful?",
+    "optionA": {
+      "label": "Clean",
+      "weights": {
+        "honor": 2,
+        "nobility": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Powerful",
+      "weights": {
+        "control": 1,
+        "ruthlessness": 1,
+        "spotlight": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q351",
+    "category": "social",
+    "text": "Would you rather persuade one person deeply, or many people lightly?",
+    "optionA": {
+      "label": "One deeply",
+      "weights": {
+        "support": 1,
+        "logic": 1,
+        "subtlety": 1,
+        "solitude": 1
+      }
+    },
+    "optionB": {
+      "label": "Many lightly",
+      "weights": {
+        "spotlight": 2,
+        "leadership": 1,
+        "trickster_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q352",
+    "category": "social",
+    "text": "Would you rather be the diplomat, or the symbol?",
+    "optionA": {
+      "label": "Diplomat",
+      "weights": {
+        "support": 1,
+        "control": 1,
+        "logic": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Symbol",
+      "weights": {
+        "spotlight": 2,
+        "nobility": 1,
+        "divine_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q353",
+    "category": "social",
+    "text": "Would you rather expose yourself to lead, or stay guarded to survive?",
+    "optionA": {
+      "label": "Expose yourself to lead",
+      "weights": {
+        "leadership": 2,
+        "spotlight": 1,
+        "honor": 1
+      }
+    },
+    "optionB": {
+      "label": "Stay guarded to survive",
+      "weights": {
+        "solitude": 1,
+        "subtlety": 1,
+        "control": 1,
+        "pragmatism": 1
+      }
+    }
+  },
+  {
+    "id": "q354",
+    "category": "social",
+    "text": "Would you rather comfort someone, or sharpen them?",
+    "optionA": {
+      "label": "Comfort them",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Sharpen them",
+      "weights": {
+        "logic": 1,
+        "ruthlessness": 1,
+        "leadership": 1,
+        "martial_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q355",
+    "category": "social",
+    "text": "Would you rather wear rank, or reject labels?",
+    "optionA": {
+      "label": "Wear rank",
+      "weights": {
+        "order": 1,
+        "nobility": 2,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Reject labels",
+      "weights": {
+        "freedom": 2,
+        "outsider": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q356",
+    "category": "social",
+    "text": "Would you rather be seen as fair, or formidable?",
+    "optionA": {
+      "label": "Fair",
+      "weights": {
+        "honor": 2,
+        "support": 1,
+        "mercy": 1
+      }
+    },
+    "optionB": {
+      "label": "Formidable",
+      "weights": {
+        "spotlight": 1,
+        "ruthlessness": 1,
+        "frontline": 1,
+        "control": 1
+      }
+    }
+  },
+  {
+    "id": "q357",
+    "category": "social",
+    "text": "Would you rather keep a small loyal circle, or rotate through many allies?",
+    "optionA": {
+      "label": "Small loyal circle",
+      "weights": {
+        "support": 1,
+        "solitude": 1,
+        "honor": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Many allies",
+      "weights": {
+        "spotlight": 1,
+        "freedom": 1,
+        "trickster_affinity": 1,
+        "support": 1
+      }
+    }
+  },
+  {
+    "id": "q358",
+    "category": "social",
+    "text": "Would you rather de-escalate with empathy, or with authority?",
+    "optionA": {
+      "label": "With empathy",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "logic": 1
+      }
+    },
+    "optionB": {
+      "label": "With authority",
+      "weights": {
+        "leadership": 2,
+        "order": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q359",
+    "category": "social",
+    "text": "Would you rather be remembered for kindness, or influence?",
+    "optionA": {
+      "label": "Kindness",
+      "weights": {
+        "mercy": 2,
+        "support": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Influence",
+      "weights": {
+        "leadership": 1,
+        "spotlight": 1,
+        "control": 1,
+        "nobility": 1
+      }
+    }
+  },
+  {
+    "id": "q360",
+    "category": "social",
+    "text": "Would you rather make people feel safe, or awakened?",
+    "optionA": {
+      "label": "Safe",
+      "weights": {
+        "support": 2,
+        "mercy": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Awakened",
+      "weights": {
+        "spotlight": 1,
+        "logic": 1,
+        "trickster_affinity": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q361",
+    "category": "aesthetic",
+    "text": "Would you rather look carved from marble, or dragged from the wild?",
+    "optionA": {
+      "label": "Carved from marble",
+      "weights": {
+        "nobility": 2,
+        "order": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Dragged from the wild",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q362",
+    "category": "aesthetic",
+    "text": "Would you rather wear gold, or weather?",
+    "optionA": {
+      "label": "Gold",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Weather",
+      "weights": {
+        "primal_affinity": 1,
+        "freedom": 1,
+        "outsider": 1,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q363",
+    "category": "aesthetic",
+    "text": "Would you rather feel like stained glass, or smoke?",
+    "optionA": {
+      "label": "Stained glass",
+      "weights": {
+        "divine_affinity": 1,
+        "nobility": 1,
+        "spotlight": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Smoke",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q364",
+    "category": "aesthetic",
+    "text": "Would you rather have a temple silhouette, or a predator silhouette?",
+    "optionA": {
+      "label": "Temple silhouette",
+      "weights": {
+        "divine_affinity": 1,
+        "nobility": 1,
+        "order": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Predator silhouette",
+      "weights": {
+        "primal_affinity": 1,
+        "mobility": 1,
+        "destruction": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q365",
+    "category": "aesthetic",
+    "text": "Would you rather glow, or simmer?",
+    "optionA": {
+      "label": "Glow",
+      "weights": {
+        "spotlight": 2,
+        "divine_affinity": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Simmer",
+      "weights": {
+        "shadow_affinity": 1,
+        "control": 1,
+        "destruction": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q366",
+    "category": "aesthetic",
+    "text": "Would you rather have antlers, or a halo?",
+    "optionA": {
+      "label": "Antlers",
+      "weights": {
+        "primal_affinity": 2,
+        "outsider": 1,
+        "instinct": 1
+      }
+    },
+    "optionB": {
+      "label": "A halo",
+      "weights": {
+        "divine_affinity": 2,
+        "nobility": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q367",
+    "category": "aesthetic",
+    "text": "Would you rather wear ritual markings, or battlefield damage?",
+    "optionA": {
+      "label": "Ritual markings",
+      "weights": {
+        "arcane_affinity": 1,
+        "primal_affinity": 1,
+        "complexity": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "Battlefield damage",
+      "weights": {
+        "martial_affinity": 1,
+        "resilience": 1,
+        "frontline": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q368",
+    "category": "aesthetic",
+    "text": "Would you rather resemble moonlit water, or volcanic stone?",
+    "optionA": {
+      "label": "Moonlit water",
+      "weights": {
+        "control": 1,
+        "subtlety": 1,
+        "divine_affinity": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Volcanic stone",
+      "weights": {
+        "destruction": 2,
+        "resilience": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q369",
+    "category": "aesthetic",
+    "text": "Would you rather dress like a noble curse, or a holy storm?",
+    "optionA": {
+      "label": "Noble curse",
+      "weights": {
+        "shadow_affinity": 1,
+        "nobility": 1,
+        "spotlight": 1,
+        "outsider": 1
+      }
+    },
+    "optionB": {
+      "label": "Holy storm",
+      "weights": {
+        "divine_affinity": 1,
+        "destruction": 1,
+        "spotlight": 1,
+        "order": 1
+      }
+    }
+  },
+  {
+    "id": "q370",
+    "category": "aesthetic",
+    "text": "Would you rather feel elegant and dangerous, or rough and honest?",
+    "optionA": {
+      "label": "Elegant and dangerous",
+      "weights": {
+        "shadow_affinity": 1,
+        "nobility": 1,
+        "subtlety": 1,
+        "destruction": 1
+      }
+    },
+    "optionB": {
+      "label": "Rough and honest",
+      "weights": {
+        "martial_affinity": 1,
+        "honor": 1,
+        "primal_affinity": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q371",
+    "category": "aesthetic",
+    "text": "Would you rather have a library aura, or a bonfire aura?",
+    "optionA": {
+      "label": "Library aura",
+      "weights": {
+        "arcane_affinity": 2,
+        "logic": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Bonfire aura",
+      "weights": {
+        "destruction": 1,
+        "support": 1,
+        "primal_affinity": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q372",
+    "category": "aesthetic",
+    "text": "Would you rather seem celestial by day, or haunted by night?",
+    "optionA": {
+      "label": "Celestial by day",
+      "weights": {
+        "divine_affinity": 2,
+        "spotlight": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Haunted by night",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q373",
+    "category": "aesthetic",
+    "text": "Would you rather be all edges, or all flow?",
+    "optionA": {
+      "label": "All edges",
+      "weights": {
+        "control": 2,
+        "martial_affinity": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "All flow",
+      "weights": {
+        "mobility": 2,
+        "instinct": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q374",
+    "category": "aesthetic",
+    "text": "Would you rather wear silk over armor, or armor over scars?",
+    "optionA": {
+      "label": "Silk over armor",
+      "weights": {
+        "nobility": 1,
+        "frontline": 1,
+        "spotlight": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Armor over scars",
+      "weights": {
+        "resilience": 2,
+        "martial_affinity": 1,
+        "honor": 1
+      }
+    }
+  },
+  {
+    "id": "q375",
+    "category": "aesthetic",
+    "text": "Would you rather seem ancient, or experimental?",
+    "optionA": {
+      "label": "Ancient",
+      "weights": {
+        "order": 1,
+        "arcane_affinity": 1,
+        "nobility": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Experimental",
+      "weights": {
+        "chaos": 1,
+        "arcane_affinity": 1,
+        "outsider": 1,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q376",
+    "category": "aesthetic",
+    "text": "Would you rather look like thunder given shape, or shadow given shape?",
+    "optionA": {
+      "label": "Thunder given shape",
+      "weights": {
+        "destruction": 1,
+        "spotlight": 1,
+        "arcane_affinity": 1,
+        "primal_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Shadow given shape",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q377",
+    "category": "aesthetic",
+    "text": "Would you rather have feathers, or fangs?",
+    "optionA": {
+      "label": "Feathers",
+      "weights": {
+        "divine_affinity": 1,
+        "mobility": 1,
+        "nobility": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Fangs",
+      "weights": {
+        "primal_affinity": 1,
+        "destruction": 1,
+        "instinct": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q378",
+    "category": "aesthetic",
+    "text": "Would you rather feel sacred, or profane?",
+    "optionA": {
+      "label": "Sacred",
+      "weights": {
+        "divine_affinity": 2,
+        "order": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Profane",
+      "weights": {
+        "shadow_affinity": 2,
+        "chaos": 1,
+        "outsider": 1
+      }
+    }
+  },
+  {
+    "id": "q379",
+    "category": "aesthetic",
+    "text": "Would you rather look crafted, or grown?",
+    "optionA": {
+      "label": "Crafted",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Grown",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "resilience": 1
+      }
+    }
+  },
+  {
+    "id": "q380",
+    "category": "aesthetic",
+    "text": "Would you rather have a crown vibe, or a cloak vibe?",
+    "optionA": {
+      "label": "Crown vibe",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "leadership": 1
+      }
+    },
+    "optionB": {
+      "label": "Cloak vibe",
+      "weights": {
+        "subtlety": 2,
+        "outsider": 1,
+        "solitude": 1
+      }
+    }
+  },
+  {
+    "id": "q381",
+    "category": "aesthetic",
+    "text": "Would you rather radiate discipline, or appetite?",
+    "optionA": {
+      "label": "Discipline",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "martial_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Appetite",
+      "weights": {
+        "destruction": 1,
+        "shadow_affinity": 1,
+        "instinct": 1,
+        "chaos": 1
+      }
+    }
+  },
+  {
+    "id": "q382",
+    "category": "aesthetic",
+    "text": "Would you rather seem courtly, or mythic?",
+    "optionA": {
+      "label": "Courtly",
+      "weights": {
+        "nobility": 2,
+        "support": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Mythic",
+      "weights": {
+        "primal_affinity": 1,
+        "arcane_affinity": 1,
+        "outsider": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q383",
+    "category": "aesthetic",
+    "text": "Would you rather look polished, or ritual-worn?",
+    "optionA": {
+      "label": "Polished",
+      "weights": {
+        "nobility": 1,
+        "control": 1,
+        "spotlight": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Ritual-worn",
+      "weights": {
+        "arcane_affinity": 1,
+        "primal_affinity": 1,
+        "outsider": 1,
+        "complexity": 1
+      }
+    }
+  },
+  {
+    "id": "q384",
+    "category": "aesthetic",
+    "text": "Would you rather feel winter-sharp, or summer-feral?",
+    "optionA": {
+      "label": "Winter-sharp",
+      "weights": {
+        "control": 2,
+        "subtlety": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "Summer-feral",
+      "weights": {
+        "primal_affinity": 2,
+        "instinct": 1,
+        "destruction": 1
+      }
+    }
+  },
+  {
+    "id": "q385",
+    "category": "aesthetic",
+    "text": "Would you rather look like a standard, or a warning?",
+    "optionA": {
+      "label": "A standard",
+      "weights": {
+        "order": 1,
+        "leadership": 1,
+        "nobility": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "A warning",
+      "weights": {
+        "ruthlessness": 1,
+        "shadow_affinity": 1,
+        "destruction": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q386",
+    "category": "aesthetic",
+    "text": "Would you rather wear ritual metal, or living wood?",
+    "optionA": {
+      "label": "Ritual metal",
+      "weights": {
+        "arcane_affinity": 1,
+        "martial_affinity": 1,
+        "order": 1,
+        "complexity": 1
+      }
+    },
+    "optionB": {
+      "label": "Living wood",
+      "weights": {
+        "primal_affinity": 2,
+        "support": 1,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q387",
+    "category": "aesthetic",
+    "text": "Would you rather feel like incense, or ozone?",
+    "optionA": {
+      "label": "Incense",
+      "weights": {
+        "divine_affinity": 1,
+        "support": 1,
+        "nobility": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Ozone",
+      "weights": {
+        "destruction": 1,
+        "arcane_affinity": 1,
+        "mobility": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q388",
+    "category": "aesthetic",
+    "text": "Would you rather carry pale light, or red heat?",
+    "optionA": {
+      "label": "Pale light",
+      "weights": {
+        "divine_affinity": 1,
+        "subtlety": 1,
+        "control": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Red heat",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q389",
+    "category": "aesthetic",
+    "text": "Would you rather look born lucky, or built hard?",
+    "optionA": {
+      "label": "Born lucky",
+      "weights": {
+        "trickster_affinity": 1,
+        "spotlight": 1,
+        "freedom": 1,
+        "subtlety": 1
+      }
+    },
+    "optionB": {
+      "label": "Built hard",
+      "weights": {
+        "resilience": 2,
+        "martial_affinity": 1,
+        "honor": 1
+      }
+    }
+  },
+  {
+    "id": "q390",
+    "category": "aesthetic",
+    "text": "Would you rather feel like a relic, or a mutation?",
+    "optionA": {
+      "label": "A relic",
+      "weights": {
+        "order": 1,
+        "nobility": 1,
+        "arcane_affinity": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "A mutation",
+      "weights": {
+        "outsider": 2,
+        "chaos": 1,
+        "shadow_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q391",
+    "category": "aesthetic",
+    "text": "Would you rather wear symmetry, or asymmetry?",
+    "optionA": {
+      "label": "Symmetry",
+      "weights": {
+        "order": 2,
+        "control": 1,
+        "nobility": 1
+      }
+    },
+    "optionB": {
+      "label": "Asymmetry",
+      "weights": {
+        "chaos": 1,
+        "trickster_affinity": 1,
+        "outsider": 1,
+        "freedom": 1
+      }
+    }
+  },
+  {
+    "id": "q392",
+    "category": "aesthetic",
+    "text": "Would you rather be all moon, or all furnace?",
+    "optionA": {
+      "label": "All moon",
+      "weights": {
+        "subtlety": 1,
+        "control": 1,
+        "divine_affinity": 1,
+        "arcane_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "All furnace",
+      "weights": {
+        "destruction": 2,
+        "frontline": 1,
+        "arcane_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q393",
+    "category": "aesthetic",
+    "text": "Would you rather look like a promise, or a threat?",
+    "optionA": {
+      "label": "A promise",
+      "weights": {
+        "honor": 1,
+        "support": 1,
+        "nobility": 1,
+        "divine_affinity": 1
+      }
+    },
+    "optionB": {
+      "label": "A threat",
+      "weights": {
+        "ruthlessness": 1,
+        "shadow_affinity": 1,
+        "destruction": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q394",
+    "category": "aesthetic",
+    "text": "Would you rather be wrapped in symbols, or in trophies?",
+    "optionA": {
+      "label": "Symbols",
+      "weights": {
+        "arcane_affinity": 1,
+        "divine_affinity": 1,
+        "complexity": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Trophies",
+      "weights": {
+        "martial_affinity": 1,
+        "frontline": 1,
+        "primal_affinity": 1,
+        "spotlight": 1
+      }
+    }
+  },
+  {
+    "id": "q395",
+    "category": "aesthetic",
+    "text": "Would you rather feel like a choir, or an omen?",
+    "optionA": {
+      "label": "A choir",
+      "weights": {
+        "divine_affinity": 2,
+        "support": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "An omen",
+      "weights": {
+        "shadow_affinity": 2,
+        "outsider": 1,
+        "subtlety": 1
+      }
+    }
+  },
+  {
+    "id": "q396",
+    "category": "aesthetic",
+    "text": "Would you rather have clean ceremonial lines, or raw survival lines?",
+    "optionA": {
+      "label": "Ceremonial lines",
+      "weights": {
+        "order": 2,
+        "nobility": 1,
+        "control": 1
+      }
+    },
+    "optionB": {
+      "label": "Survival lines",
+      "weights": {
+        "resilience": 1,
+        "primal_affinity": 1,
+        "martial_affinity": 1,
+        "instinct": 1
+      }
+    }
+  },
+  {
+    "id": "q397",
+    "category": "aesthetic",
+    "text": "Would you rather look expensive, or inevitable?",
+    "optionA": {
+      "label": "Expensive",
+      "weights": {
+        "nobility": 2,
+        "spotlight": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Inevitable",
+      "weights": {
+        "control": 1,
+        "resilience": 1,
+        "shadow_affinity": 1,
+        "frontline": 1
+      }
+    }
+  },
+  {
+    "id": "q398",
+    "category": "aesthetic",
+    "text": "Would you rather seem more human than human, or less human than myth?",
+    "optionA": {
+      "label": "More human than human",
+      "weights": {
+        "nobility": 1,
+        "support": 1,
+        "subtlety": 1,
+        "spotlight": 1
+      }
+    },
+    "optionB": {
+      "label": "Less human than myth",
+      "weights": {
+        "outsider": 2,
+        "arcane_affinity": 1,
+        "primal_affinity": 1
+      }
+    }
+  },
+  {
+    "id": "q399",
+    "category": "aesthetic",
+    "text": "Would you rather feel like a sainted relic, or a sharpened beast?",
+    "optionA": {
+      "label": "Sainted relic",
+      "weights": {
+        "divine_affinity": 2,
+        "nobility": 1,
+        "order": 1
+      }
+    },
+    "optionB": {
+      "label": "Sharpened beast",
+      "weights": {
+        "primal_affinity": 2,
+        "destruction": 1,
+        "mobility": 1
+      }
+    }
+  },
+  {
+    "id": "q400",
+    "category": "aesthetic",
+    "text": "Would you rather arrive like dawn, or like a bad omen?",
+    "optionA": {
+      "label": "Like dawn",
+      "weights": {
+        "spotlight": 2,
+        "divine_affinity": 1,
+        "support": 1
+      }
+    },
+    "optionB": {
+      "label": "Like a bad omen",
+      "weights": {
+        "shadow_affinity": 2,
+        "subtlety": 1,
+        "outsider": 1
+      }
+    }
+  }
+]

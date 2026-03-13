@@ -1,0 +1,183 @@
+[
+  {
+    "id": "storm_sorcerer_bonus",
+    "label": "Storm Sorcerer-like Synergy",
+    "appliesTo": {
+      "classId": "sorcerer"
+    },
+    "allOf": [
+      {
+        "trait": "arcane_affinity",
+        "operator": ">=",
+        "value": 65
+      },
+      {
+        "trait": "destruction",
+        "operator": ">=",
+        "value": 70
+      },
+      {
+        "trait": "chaos",
+        "operator": ">=",
+        "value": 50
+      },
+      {
+        "trait": "spotlight",
+        "operator": ">=",
+        "value": 50
+      }
+    ],
+    "bonus": 18,
+    "reason": "Rewards a profile that is magical, explosive, unstable, and comfortable with spectacle."
+  },
+  {
+    "id": "moon_druid_bonus",
+    "label": "Moon Druid Synergy",
+    "appliesTo": {
+      "classId": "druid",
+      "subclassId": "druid_circle_of_the_moon"
+    },
+    "allOf": [
+      {
+        "trait": "primal_affinity",
+        "operator": ">=",
+        "value": 65
+      },
+      {
+        "trait": "instinct",
+        "operator": ">=",
+        "value": 50
+      },
+      {
+        "trait": "frontline",
+        "operator": ">=",
+        "value": 45
+      },
+      {
+        "trait": "resilience",
+        "operator": ">=",
+        "value": 45
+      }
+    ],
+    "bonus": 18,
+    "reason": "Rewards users who want primal power and are willing to become the beast on the front line."
+  },
+  {
+    "id": "arcane_trickster_bonus",
+    "label": "Arcane Trickster Synergy",
+    "appliesTo": {
+      "classId": "rogue",
+      "subclassId": "rogue_arcane_trickster"
+    },
+    "allOf": [
+      {
+        "trait": "subtlety",
+        "operator": ">=",
+        "value": 60
+      },
+      {
+        "trait": "trickster_affinity",
+        "operator": ">=",
+        "value": 65
+      },
+      {
+        "trait": "arcane_affinity",
+        "operator": ">=",
+        "value": 40
+      }
+    ],
+    "bonus": 16,
+    "reason": "Rewards a hybrid of deception, light spellcasting, and finesse."
+  },
+  {
+    "id": "devotion_paladin_bonus",
+    "label": "Devotion Paladin Synergy",
+    "appliesTo": {
+      "classId": "paladin",
+      "subclassId": "paladin_oath_of_devotion"
+    },
+    "allOf": [
+      {
+        "trait": "duty",
+        "operator": ">=",
+        "value": 60
+      },
+      {
+        "trait": "honor",
+        "operator": ">=",
+        "value": 60
+      },
+      {
+        "trait": "support",
+        "operator": ">=",
+        "value": 45
+      },
+      {
+        "trait": "frontline",
+        "operator": ">=",
+        "value": 45
+      }
+    ],
+    "bonus": 16,
+    "reason": "Rewards oath-driven protectors with principled frontline identity."
+  },
+  {
+    "id": "gloom_stalker_bonus",
+    "label": "Gloom Stalker Synergy",
+    "appliesTo": {
+      "classId": "ranger",
+      "subclassId": "ranger_gloom_stalker"
+    },
+    "allOf": [
+      {
+        "trait": "subtlety",
+        "operator": ">=",
+        "value": 60
+      },
+      {
+        "trait": "mobility",
+        "operator": ">=",
+        "value": 55
+      },
+      {
+        "trait": "shadow_affinity",
+        "operator": ">=",
+        "value": 35
+      }
+    ],
+    "bonus": 14,
+    "reason": "Rewards ambush-oriented, mobile, darkness-flavored hunter profiles."
+  },
+  {
+    "id": "evocation_wizard_bonus",
+    "label": "Evocation Wizard Synergy",
+    "appliesTo": {
+      "classId": "wizard",
+      "subclassId": "wizard_school_of_evocation"
+    },
+    "allOf": [
+      {
+        "trait": "logic",
+        "operator": ">=",
+        "value": 60
+      },
+      {
+        "trait": "arcane_affinity",
+        "operator": ">=",
+        "value": 65
+      },
+      {
+        "trait": "control",
+        "operator": ">=",
+        "value": 55
+      },
+      {
+        "trait": "destruction",
+        "operator": ">=",
+        "value": 50
+      }
+    ],
+    "bonus": 15,
+    "reason": "Rewards disciplined magical artillery rather than chaotic blasting."
+  }
+]

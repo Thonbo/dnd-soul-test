@@ -1,0 +1,206 @@
+[
+  {
+    "id": "order",
+    "group": "personality",
+    "label": "Order",
+    "description": "Preference for structure, rules, consistency, and disciplined systems.",
+    "opposes": "chaos"
+  },
+  {
+    "id": "chaos",
+    "group": "personality",
+    "label": "Chaos",
+    "description": "Preference for spontaneity, disruption, unpredictability, and raw impulse.",
+    "opposes": "order"
+  },
+  {
+    "id": "duty",
+    "group": "personality",
+    "label": "Duty",
+    "description": "Desire to serve a cause, oath, people, or shared responsibility.",
+    "opposes": "freedom"
+  },
+  {
+    "id": "freedom",
+    "group": "personality",
+    "label": "Freedom",
+    "description": "Desire for independence, self-direction, and resistance to external control.",
+    "opposes": "duty"
+  },
+  {
+    "id": "logic",
+    "group": "personality",
+    "label": "Logic",
+    "description": "Preference for reason, analysis, study, and deliberate decision-making.",
+    "opposes": "instinct"
+  },
+  {
+    "id": "instinct",
+    "group": "personality",
+    "label": "Instinct",
+    "description": "Preference for intuition, emotion, reflex, and gut-driven action.",
+    "opposes": "logic"
+  },
+  {
+    "id": "mercy",
+    "group": "personality",
+    "label": "Mercy",
+    "description": "Preference for compassion, restraint, and giving others a second chance.",
+    "opposes": "ruthlessness"
+  },
+  {
+    "id": "ruthlessness",
+    "group": "personality",
+    "label": "Ruthlessness",
+    "description": "Willingness to do harm, impose fear, or remove obstacles without hesitation.",
+    "opposes": "mercy"
+  },
+  {
+    "id": "honor",
+    "group": "personality",
+    "label": "Honor",
+    "description": "Respect for integrity, word-keeping, fair conduct, and principled action.",
+    "opposes": "pragmatism"
+  },
+  {
+    "id": "pragmatism",
+    "group": "personality",
+    "label": "Pragmatism",
+    "description": "Preference for effective outcomes over ideals, tradition, or purity.",
+    "opposes": "honor"
+  },
+  {
+    "id": "leadership",
+    "group": "social_identity",
+    "label": "Leadership",
+    "description": "Inclination to guide, command, inspire, or organize others."
+  },
+  {
+    "id": "solitude",
+    "group": "social_identity",
+    "label": "Solitude",
+    "description": "Comfort with self-reliance, privacy, and operating alone."
+  },
+  {
+    "id": "spotlight",
+    "group": "social_identity",
+    "label": "Spotlight",
+    "description": "Comfort with visibility, presence, charisma, and theatricality.",
+    "opposes": "subtlety"
+  },
+  {
+    "id": "subtlety",
+    "group": "social_identity",
+    "label": "Subtlety",
+    "description": "Preference for low-profile influence, stealth, nuance, and concealment.",
+    "opposes": "spotlight"
+  },
+  {
+    "id": "outsider",
+    "group": "social_identity",
+    "label": "Outsider",
+    "description": "Affinity for alienation, being different, monstrous, exiled, or beyond the norm.",
+    "opposes": "nobility"
+  },
+  {
+    "id": "nobility",
+    "group": "social_identity",
+    "label": "Nobility",
+    "description": "Affinity for refinement, legacy, prestige, elevated purpose, or regal identity.",
+    "opposes": "outsider"
+  },
+  {
+    "id": "martial_affinity",
+    "group": "power_source",
+    "label": "Martial Affinity",
+    "description": "Affinity for physical prowess, weapons, tactics, and direct combat.",
+    "opposes": "arcane_affinity"
+  },
+  {
+    "id": "arcane_affinity",
+    "group": "power_source",
+    "label": "Arcane Affinity",
+    "description": "Affinity for learned or innate magical power, spellcasting, and reality-shaping.",
+    "opposes": "martial_affinity"
+  },
+  {
+    "id": "divine_affinity",
+    "group": "power_source",
+    "label": "Divine Affinity",
+    "description": "Affinity for sacred purpose, blessing, judgment, faith, or celestial power.",
+    "opposes": "shadow_affinity"
+  },
+  {
+    "id": "primal_affinity",
+    "group": "power_source",
+    "label": "Primal Affinity",
+    "description": "Affinity for wilderness, beasts, natural forces, transformation, and instinctive power."
+  },
+  {
+    "id": "shadow_affinity",
+    "group": "power_source",
+    "label": "Shadow Affinity",
+    "description": "Affinity for forbidden, eldritch, sinister, cursed, or fear-based power.",
+    "opposes": "divine_affinity"
+  },
+  {
+    "id": "trickster_affinity",
+    "group": "power_source",
+    "label": "Trickster Affinity",
+    "description": "Affinity for deception, misdirection, mischief, improvisation, and clever manipulation."
+  },
+  {
+    "id": "frontline",
+    "group": "playstyle",
+    "label": "Frontline",
+    "description": "Preference for being near danger, engaging directly, and holding space.",
+    "opposes": "backline"
+  },
+  {
+    "id": "backline",
+    "group": "playstyle",
+    "label": "Backline",
+    "description": "Preference for distance, planning, ranged influence, or indirect pressure.",
+    "opposes": "frontline"
+  },
+  {
+    "id": "control",
+    "group": "playstyle",
+    "label": "Control",
+    "description": "Preference for battlefield shaping, planning, denial, restraint, and tactical influence.",
+    "opposes": "destruction"
+  },
+  {
+    "id": "destruction",
+    "group": "playstyle",
+    "label": "Destruction",
+    "description": "Preference for burst, lethal power, overwhelming force, and direct removal of threats.",
+    "opposes": "control"
+  },
+  {
+    "id": "support",
+    "group": "playstyle",
+    "label": "Support",
+    "description": "Preference for empowering allies, protecting others, healing, and team enablement."
+  },
+  {
+    "id": "mobility",
+    "group": "playstyle",
+    "label": "Mobility",
+    "description": "Preference for movement, repositioning, skirmishing, and evasive play.",
+    "opposes": "resilience"
+  },
+  {
+    "id": "resilience",
+    "group": "playstyle",
+    "label": "Resilience",
+    "description": "Preference for durability, staying power, tanking, and surviving pressure.",
+    "opposes": "mobility"
+  },
+  {
+    "id": "complexity",
+    "group": "playstyle",
+    "label": "Complexity",
+    "description": "Comfort with layered mechanics, resource planning, combos, and high-cognitive-load play."
+  }
+]

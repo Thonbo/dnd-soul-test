@@ -1,0 +1,149 @@
+[
+  {
+    "id": "guardian",
+    "label": "Guardian",
+    "description": "Protective, oath-bound, resilient team anchor.",
+    "weights": {
+      "duty": 3,
+      "support": 3,
+      "frontline": 3,
+      "resilience": 3,
+      "honor": 2,
+      "order": 1
+    }
+  },
+  {
+    "id": "warlord",
+    "label": "Warlord",
+    "description": "Commanding battlefield leader driven by power and presence.",
+    "weights": {
+      "leadership": 3,
+      "frontline": 2,
+      "spotlight": 2,
+      "martial_affinity": 2,
+      "destruction": 1,
+      "order": 1
+    }
+  },
+  {
+    "id": "scholar",
+    "label": "Scholar",
+    "description": "Analytical master of systems, lore, and disciplined power.",
+    "weights": {
+      "logic": 3,
+      "arcane_affinity": 3,
+      "control": 3,
+      "complexity": 3,
+      "backline": 2
+    }
+  },
+  {
+    "id": "storm",
+    "label": "Storm",
+    "description": "Explosive force of intensity, spectacle, and magical destruction.",
+    "weights": {
+      "destruction": 3,
+      "chaos": 2,
+      "spotlight": 2,
+      "arcane_affinity": 2,
+      "instinct": 1
+    }
+  },
+  {
+    "id": "predator",
+    "label": "Predator",
+    "description": "Precise, mobile hunter thriving on advantage and opportunism.",
+    "weights": {
+      "subtlety": 3,
+      "mobility": 3,
+      "ruthlessness": 2,
+      "destruction": 2,
+      "pragmatism": 1
+    }
+  },
+  {
+    "id": "prophet",
+    "label": "Prophet",
+    "description": "Faith-infused guide or judge carrying divine purpose.",
+    "weights": {
+      "divine_affinity": 3,
+      "leadership": 2,
+      "support": 2,
+      "nobility": 2,
+      "duty": 2
+    }
+  },
+  {
+    "id": "wanderer",
+    "label": "Wanderer",
+    "description": "Independent explorer defined by freedom and motion.",
+    "weights": {
+      "freedom": 3,
+      "mobility": 2,
+      "solitude": 2,
+      "primal_affinity": 1,
+      "outsider": 1
+    }
+  },
+  {
+    "id": "trickster",
+    "label": "Trickster",
+    "description": "Clever manipulator who bends outcomes with wit and misdirection.",
+    "weights": {
+      "trickster_affinity": 3,
+      "subtlety": 2,
+      "chaos": 1,
+      "pragmatism": 2,
+      "mobility": 1
+    }
+  },
+  {
+    "id": "outsider_mage",
+    "label": "Outsider Mage",
+    "description": "Alien or cursed wielder of dangerous, identity-defining power.",
+    "weights": {
+      "outsider": 3,
+      "arcane_affinity": 2,
+      "shadow_affinity": 2,
+      "complexity": 1,
+      "solitude": 1
+    }
+  },
+  {
+    "id": "beast",
+    "label": "Beast",
+    "description": "Untamed force of instinct, resilience, and primal identity.",
+    "weights": {
+      "primal_affinity": 3,
+      "instinct": 3,
+      "frontline": 2,
+      "resilience": 2,
+      "chaos": 1
+    }
+  },
+  {
+    "id": "avenger",
+    "label": "Avenger",
+    "description": "Focused force of punishment, pursuit, and decisive retaliation.",
+    "weights": {
+      "ruthlessness": 2,
+      "duty": 2,
+      "destruction": 2,
+      "mobility": 1,
+      "frontline": 1,
+      "honor": 1
+    }
+  },
+  {
+    "id": "sovereign",
+    "label": "Sovereign",
+    "description": "Regal presence seeking control, status, and dominion.",
+    "weights": {
+      "nobility": 3,
+      "leadership": 3,
+      "spotlight": 2,
+      "order": 2,
+      "control": 2
+    }
+  }
+]

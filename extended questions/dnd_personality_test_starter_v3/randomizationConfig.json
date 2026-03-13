@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "defaultMode": "fixed_target",
+  "defaultQuestionCount": 50,
+  "questionPoolSize": 400,
+  "supportedModes": [
+    "fixed_target",
+    "adaptive_confidence"
+  ],
+  "supportedQuestionCount": {
+    "absoluteMin": 5,
+    "recommendedMin": 24,
+    "recommendedDefault": 50,
+    "recommendedMax": 120,
+    "absoluteMax": 400
+  },
+  "categoryWeights": {
+    "identity": 0.2,
+    "power": 0.2,
+    "combat": 0.2,
+    "social": 0.2,
+    "aesthetic": 0.2
+  },
+  "quotaStrategy": {
+    "method": "largest_remainder_with_seed_rotated_remainders",
+    "minimumPerCategoryWhenPossible": 1,
+    "seedAffectsRemainderPriority": true,
+    "notes": [
+      "Convert targetCount * categoryWeight into raw quotas.",
+      "Take the floor for each category.",
+      "Distribute the remaining slots by fractional remainder.",
+      "Rotate which categories receive remainder slots using the session seed so the same categories are not always favored when counts do not divide evenly."
+    ]
+  },
+  "selectionStages": [
+    "1. Resolve target count or adaptive bounds.",
+    "2. Allocate category quotas proportionally.",
+    "3. Seed-shuffle questions inside each category.",
+    "4. Pull an initial balanced set.",
+    "5. Validate trait coverage and duplicate similarity.",
+    "6. Swap a small number of questions if coverage is skewed.",
+    "7. Shuffle final display order while respecting max category streak rules."
+  ],
+  "presentationRules": {
+    "maxConsecutiveQuestionsFromSameCategory": 2,
+    "avoidImmediateNearDuplicateWording": true,
+    "preserveSeedForResume": true
+  },
+  "coverageValidation": {
+    "enabled": true,
+    "targetDistinctTraitsFormula": "min(30, max(12, round(targetCount * 0.60)))",
+    "minimumWeightTouchesPerCoreTraitCluster": {
+      "personality": 4,
+      "social_identity": 3,
+      "power_source": 3,
+      "playstyle": 4
+    },
+    "maxSingleTraitShareOfTotalTouches": 0.14,
+    "rebalanceSwapLimit": 6
+  },
+  "adaptiveMode": {
+    "enabled": true,
+    "minQuestions": 24,
+    "softTarget": 40,
+    "maxQuestions": 80,
+    "confidenceThreshold": 0.82,
+    "stabilityThreshold": 0.78,
+    "stopConditions": [
+      "Stop if top build confidence >= confidenceThreshold and trait stability >= stabilityThreshold after minQuestions.",
+      "Otherwise continue asking targeted follow-up questions until thresholds are met or maxQuestions is reached.",
+      "If the top two builds remain very close, prefer class-disambiguation questions over generic filler questions."
+    ],
+    "uncertaintySignals": [
+      "small margin between top two or top three builds",
+      "high variance in opposed trait pairs like order/chaos or duty/freedom",
+      "low exposure for a relevant trait cluster",
+      "subclass split uncertainty inside the same class"
+    ],
+    "followUpSelectionStrategy": "target_underrepresented_traits_then_target_top_build_conflicts"
+  },
+  "exampleQuotaSnapshots": {
+    "12": {
+      "identity": 2,
+      "power": 3,
+      "combat": 2,
+      "social": 3,
+      "aesthetic": 2
+    },
+    "17": {
+      "identity": 3,
+      "power": 4,
+      "combat": 3,
+      "social": 4,
+      "aesthetic": 3
+    },
+    "24": {
+      "identity": 5,
+      "power": 5,
+      "combat": 5,
+      "social": 5,
+      "aesthetic": 4
+    },
+    "30": {
+      "identity": 6,
+      "power": 6,
+      "combat": 6,
+      "social": 6,
+      "aesthetic": 6
+    },
+    "37": {
+      "identity": 7,
+      "power": 8,
+      "combat": 7,
+      "social": 8,
+      "aesthetic": 7
+    },
+    "50": {
+      "identity": 10,
+      "power": 10,
+      "combat": 10,
+      "social": 10,
+      "aesthetic": 10
+    },
+    "63": {
+      "identity": 13,
+      "power": 13,
+      "combat": 12,
+      "social": 13,
+      "aesthetic": 12
+    },
+    "75": {
+      "identity": 15,
+      "power": 15,
+      "combat": 15,
+      "social": 15,
+      "aesthetic": 15
+    },
+    "100": {
+      "identity": 20,
+      "power": 20,
+      "combat": 20,
+      "social": 20,
+      "aesthetic": 20
+    },
+    "125": {
+      "identity": 25,
+      "power": 25,
+      "combat": 25,
+      "social": 25,
+      "aesthetic": 25
+    },
+    "160": {
+      "identity": 32,
+      "power": 32,
+      "combat": 32,
+      "social": 32,
+      "aesthetic": 32
+    },
+    "200": {
+      "identity": 40,
+      "power": 40,
+      "combat": 40,
+      "social": 40,
+      "aesthetic": 40
+    }
+  }
+}

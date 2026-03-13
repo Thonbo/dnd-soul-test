@@ -1,0 +1,97 @@
+{
+  "engineVersion": 1,
+  "selectionModes": {
+    "fixed_target": {
+      "description": "Ask exactly N questions chosen from the 400-question bank.",
+      "input": {
+        "targetQuestionCount": "integer"
+      },
+      "runtimeFlow": [
+        "Allocate per-category quotas from categoryWeights.",
+        "Sample a balanced draft.",
+        "Run trait coverage validation.",
+        "Replace up to rebalanceSwapLimit questions if needed.",
+        "Serve questions in shuffled order."
+      ]
+    },
+    "adaptive_confidence": {
+      "description": "Ask a variable number of questions until the model is confident enough to stop.",
+      "input": {
+        "minQuestions": 24,
+        "maxQuestions": 80,
+        "seed": "optional"
+      },
+      "runtimeFlow": [
+        "Ask a broad balanced core set first.",
+        "Score provisional builds every 5 questions after the minimum threshold.",
+        "Measure build confidence, trait stability, and cluster coverage.",
+        "If uncertainty remains, serve targeted disambiguation questions.",
+        "Stop when thresholds are met or maxQuestions is reached."
+      ]
+    }
+  },
+  "corePhase": {
+    "formula": "coreQuestionCount = max(15, ceil(targetQuestionCount * 0.60)) in fixed mode; 24 in adaptive mode",
+    "goal": "Establish a broad personality + fantasy + playstyle signature before specialization."
+  },
+  "refinementPhase": {
+    "goal": "Differentiate between close classes, subclasses, or opposed trait pairs.",
+    "priorityOrder": [
+      "underrepresented trait clusters",
+      "close top build conflicts",
+      "subclass tie-breakers",
+      "race flavor refinements"
+    ]
+  },
+  "nearDuplicatePolicy": {
+    "enabled": true,
+    "futureFieldName": "similarityGroup",
+    "behavior": "Never serve two questions from the same similarityGroup in one session when that metadata exists."
+  },
+  "traitOppositionPairs": [
+    [
+      "order",
+      "chaos"
+    ],
+    [
+      "duty",
+      "freedom"
+    ],
+    [
+      "logic",
+      "instinct"
+    ],
+    [
+      "mercy",
+      "ruthlessness"
+    ],
+    [
+      "honor",
+      "pragmatism"
+    ],
+    [
+      "leadership",
+      "solitude"
+    ],
+    [
+      "spotlight",
+      "subtlety"
+    ],
+    [
+      "frontline",
+      "backline"
+    ]
+  ],
+  "resultConfidenceModel": {
+    "topBuildMarginWeight": 0.45,
+    "traitStabilityWeight": 0.25,
+    "coverageWeight": 0.2,
+    "subclassClarityWeight": 0.1,
+    "notes": [
+      "topBuildMargin compares the winning build score to the runner-up",
+      "traitStability estimates how much the normalized trait profile changes over the last several questions",
+      "coverage measures whether enough clusters and opposed pairs have been meaningfully sampled",
+      "subclassClarity captures whether the subclass result is clearly ahead of sibling subclasses"
+    ]
+  }
+}
