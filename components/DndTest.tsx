@@ -111,6 +111,7 @@ function QuizView({
 
       {/* Header */}
       <div className="bg-[#0d0906] px-6 pt-0 pb-4 text-center border-b border-[#8b6914]/40">
+        <h1 className="sr-only">The Oracle&apos;s Mirror Dungeons &amp; Dragons personality test</h1>
         <ArchedHeadline />
         <div className="font-cinzel text-[#8b6914] uppercase -mt-1 mb-2">
           <div className="text-[0.72rem] tracking-[3px] leading-[1.2]">
