@@ -86,7 +86,7 @@ function QuizView({
         <h1 className="font-unifraktur text-[3.5rem] tracking-wide text-[#c8a96e] mb-2">
           The Oracle&apos;s Mirror
         </h1>
-        <WingDivider color="#c8a96e" width={483} opacity={1} />
+        <WingDivider color="#c8a96e" width={242} opacity={1} />
         <p className="font-cinzel text-[0.6rem] tracking-[3px] text-[#8b6914] uppercase mt-2 mb-1">
           A Dungeons &amp; Dragons Personality Test
         </p>
@@ -134,7 +134,7 @@ function QuizView({
         {/* ── Vertical bar + OR circle — absolutely centred ── */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
           <div className="hidden sm:flex flex-col items-center justify-center h-full">
-            <VerticalBar color="#c8a96e" height="calc((100vh - 180px) * 0.6)" opacity={1} />
+            <VerticalBar color="#c8a96e" height="calc((100vh - 180px) * 0.3)" opacity={1} />
           </div>
           <div
             className="absolute top-1/2 -translate-y-1/2 w-[3rem] h-[3rem] rounded-full flex items-center justify-center border border-[#8b6914]"
