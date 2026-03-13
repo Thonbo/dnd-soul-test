@@ -134,7 +134,7 @@ function QuizView({
         {/* ── Vertical bar + OR circle — absolutely centred ── */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
           <div className="hidden sm:flex flex-col items-center justify-center h-full">
-            <VerticalBar color="#c8a96e" height="calc((100vh - 180px) * 1.3225)" opacity={1} />
+            <VerticalBar color="#c8a96e" height="calc((100vh - 180px) * 0.6)" opacity={1} />
           </div>
           <div
             className="absolute top-1/2 -translate-y-1/2 w-[3rem] h-[3rem] rounded-full flex items-center justify-center border border-[#8b6914]"
