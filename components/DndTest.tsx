@@ -8,7 +8,8 @@ import {
 import { OrnamentDivider, CornerFlourish, MagicCircle, WingDivider, VerticalBar } from "@/components/Ornaments";
 
 const summaryFontStyle = {
-  fontFamily: "'Cormorant Garamond', var(--font-cormorant), serif",
+  fontFamily: "'UnifrakturCook', var(--font-unifraktur), cursive",
+  fontWeight: 700,
 } as const;
 
 // ─── helpers ────────────────────────────────────────────────
@@ -33,7 +34,7 @@ function StatBox({ label, value }: { label: string; value: number }) {
   return (
     <div className="min-w-0 border border-[#a07830] bg-[#8b691408] text-center py-3 px-2">
       <span className="font-cinzel block text-[11px] tracking-widest text-[#8b6914] uppercase mb-1">{label}</span>
-      <span className="text-[#3d1507] text-2xl font-bold font-cormorant" style={summaryFontStyle}>{value}</span>
+      <span className="text-[#3d1507] text-2xl font-unifraktur" style={summaryFontStyle}>{value}</span>
     </div>
   );
 }
@@ -89,7 +90,7 @@ function ArchedHeadline() {
           fontSize="82"
           letterSpacing="2"
           textAnchor="middle"
-          style={{ fontFamily: "var(--font-unifraktur), 'UnifrakturCook', cursive", fontWeight: 700 }}
+          style={{ fontFamily: "'UnifrakturCook', var(--font-unifraktur), cursive", fontWeight: 700 }}
         >
           <textPath href="#headline-arc" startOffset="50%">
             The Oracle&apos;s Mirror
@@ -449,13 +450,13 @@ function ResultView({ scores, questions, onRestart }: { scores: Scores; question
               Thy True Form Revealed
             </span>
             <p className="font-cinzel text-[0.65rem] tracking-[3px] uppercase text-[#8b6914] mb-2">{current.label}</p>
-            <h2 className="text-[4rem] font-semibold text-[#3d1507] leading-[0.92] mt-1 sm:text-[5rem] font-cormorant" style={summaryFontStyle}>{current.className}</h2>
-            <p className="italic text-[1.7rem] font-semibold text-[#6b3020] mt-3 sm:text-[2rem] font-cormorant" style={summaryFontStyle}>{current.subclassName}</p>
-            <p className="text-[1.2rem] font-semibold text-[#8b5030] mt-2 sm:text-[1.35rem] font-cormorant" style={summaryFontStyle}>Suggested Race: {current.raceName}</p>
+            <h2 className="text-[4rem] text-[#3d1507] leading-[0.92] mt-1 sm:text-[5rem] font-unifraktur" style={summaryFontStyle}>{current.className}</h2>
+            <p className="text-[1.7rem] text-[#6b3020] mt-3 sm:text-[2rem] font-unifraktur" style={summaryFontStyle}>{current.subclassName}</p>
+            <p className="text-[1.2rem] text-[#8b5030] mt-2 sm:text-[1.35rem] font-unifraktur" style={summaryFontStyle}>Suggested Race: {current.raceName}</p>
             <span className="inline-block mt-3 font-cinzel text-[0.75rem] tracking-wide bg-[#3d1507] text-[#c8a96e] px-4 py-1.5 rounded-sm">
               {current.lawChaos} {current.goodEvil}
             </span>
-            <p className="italic font-semibold text-[#6f4721] mt-5 text-[1.35rem] leading-[1.45] sm:text-[1.55rem] font-cormorant" style={summaryFontStyle}>
+            <p className="italic font-semibold text-[#6f4721] mt-5 text-[1.35rem] leading-[1.45] sm:text-[1.55rem] font-fell">
               &ldquo;{current.classDesc}&rdquo;
             </p>
           </div>
@@ -480,7 +481,7 @@ function ResultView({ scores, questions, onRestart }: { scores: Scores; question
             <p className="font-cinzel text-[0.65rem] tracking-[2px] uppercase text-[#8b6914] mb-2">
               Origin Sketch
             </p>
-            <p className="italic text-[1.15rem] leading-[1.55] text-[#5f3817] font-cormorant" style={summaryFontStyle}>
+            <p className="italic text-[1.15rem] leading-[1.55] text-[#5f3817] font-fell">
               {backstories[current.key] ?? (isLoadingStories ? "Conjuring a backstory from the mirror..." : "No backstory yet.")}
             </p>
             {storyStatus === "fallback" ? (
@@ -511,19 +512,19 @@ function ResultView({ scores, questions, onRestart }: { scores: Scores; question
                   <p className="font-cinzel text-[0.62rem] tracking-[2px] uppercase text-[#8b6914] mb-2">
                     {variant.label}
                   </p>
-                  <p className="text-[2rem] font-semibold text-[#3d1507] leading-none font-cormorant" style={summaryFontStyle}>
+                  <p className="text-[2rem] text-[#3d1507] leading-none font-unifraktur" style={summaryFontStyle}>
                     {variant.className}
                   </p>
-                  <p className="italic text-[1.2rem] font-semibold text-[#6b3020] mt-1 font-cormorant" style={summaryFontStyle}>
+                  <p className="text-[1.2rem] text-[#6b3020] mt-1 font-unifraktur" style={summaryFontStyle}>
                     {variant.subclassName}
                   </p>
-                  <p className="text-[1rem] font-semibold text-[#8b5030] mt-2 font-cormorant" style={summaryFontStyle}>
+                  <p className="text-[1rem] text-[#8b5030] mt-2 font-unifraktur" style={summaryFontStyle}>
                     {variant.raceName}
                   </p>
                   <p className="font-cinzel text-[0.62rem] tracking-[2px] uppercase text-[#7a5030] mt-2">
                     {variant.lawChaos} {variant.goodEvil}
                   </p>
-                  <p className="italic text-[0.98rem] text-[#6f4721] mt-3 leading-[1.35] font-cormorant" style={summaryFontStyle}>
+                  <p className="italic text-[0.98rem] text-[#6f4721] mt-3 leading-[1.35] font-fell">
                     {backstories[variant.key] ?? "A second path waits behind the glass."}
                   </p>
                   <button
@@ -541,7 +542,7 @@ function ResultView({ scores, questions, onRestart }: { scores: Scores; question
 
           <button
             onClick={onRestart}
-            className="block mx-auto mt-7 font-cinzel text-[0.88rem] tracking-[2px] border-2 border-[#8b6914] text-[#3d1507] px-10 py-3 rounded-sm hover:bg-[#8b691415] transition-colors cursor-pointer"
+            className="block mx-auto mt-7 font-cinzel text-[0.88rem] tracking-[2px] border-2 border-[#8b6914] bg-[#3d1507] text-[#c8a96e] px-10 py-3 rounded-sm hover:bg-[#2c1810] transition-colors cursor-pointer"
           >
             ✦ Consult the Oracle Anew ✦
           </button>

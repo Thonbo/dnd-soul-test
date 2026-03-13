@@ -44,9 +44,9 @@ body {
   font-family: 'Almendra', serif;
 }
 @utility font-unifraktur {
-  font-family: var(--font-unifraktur), 'UnifrakturCook', cursive;
+  font-family: 'UnifrakturCook', var(--font-unifraktur), cursive;
   font-weight: 700;
 }
 @utility font-cormorant {
-  font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', var(--font-cormorant), serif;
 }
