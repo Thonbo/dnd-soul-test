@@ -75,21 +75,85 @@ function buildFallbackBackstory(
 
 function ArchedHeadline() {
   return (
-    <div className="mx-auto -mb-12 w-full max-w-[980px] overflow-visible">
+    <div className="mx-auto -mb-14 w-full max-w-[1100px] overflow-visible">
       <svg
         viewBox="0 0 980 220"
-        className="h-[8.2rem] w-full overflow-visible"
+        className="h-[10.5rem] w-full overflow-visible"
         role="img"
         aria-label="The Oracle's Mirror"
       >
         <defs>
           <path id="headline-arc" d="M 70 204 Q 490 4 910 204" />
+          {/* Metallic gold gradient from Figma — vertical with gold/cream/dark bands */}
+          <linearGradient id="headline-gold" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#88671f" />
+            <stop offset="18.3%" stopColor="#face3f" />
+            <stop offset="48.6%" stopColor="#ffeece" />
+            <stop offset="51%" stopColor="#5d4e33" />
+            <stop offset="65.9%" stopColor="#d0b410" />
+            <stop offset="86.1%" stopColor="#f1e6c1" />
+            <stop offset="100%" stopColor="#c3a46b" />
+          </linearGradient>
+          {/* Drop shadows */}
+          <filter id="headline-fx" x="-5%" y="-20%" width="110%" height="160%">
+            {/* Outer glow / large shadow */}
+            <feDropShadow dx="0" dy="10" stdDeviation="4" floodColor="#000000" floodOpacity="0.5" />
+            {/* Tight drop shadow */}
+            <feDropShadow dx="0" dy="2" stdDeviation="2" floodColor="#000000" floodOpacity="1" />
+          </filter>
         </defs>
+        {/* Extrusion — 4px deep, stacked layers for solid fill */}
+        {[4, 3, 2, 1].map(dy => (
+          <text
+            key={dy}
+            fill="#4B3E21"
+            fontSize="82"
+            letterSpacing="2"
+            textAnchor="middle"
+            dy={dy}
+            style={{ fontFamily: "'UnifrakturCook', var(--font-unifraktur), cursive", fontWeight: 700 }}
+          >
+            <textPath href="#headline-arc" startOffset="50%">
+              The Oracle&apos;s Mirror
+            </textPath>
+          </text>
+        ))}
+        {/* Shadow layer */}
         <text
-          fill="#c8a96e"
+          fill="#d4a84a"
           fontSize="82"
           letterSpacing="2"
           textAnchor="middle"
+          filter="url(#headline-fx)"
+          style={{ fontFamily: "'UnifrakturCook', var(--font-unifraktur), cursive", fontWeight: 700 }}
+        >
+          <textPath href="#headline-arc" startOffset="50%">
+            The Oracle&apos;s Mirror
+          </textPath>
+        </text>
+        {/* Gradient overlay at 20% opacity for metallic sheen */}
+        <text
+          fill="url(#headline-gold)"
+          fontSize="82"
+          letterSpacing="2"
+          textAnchor="middle"
+          opacity="0.2"
+          style={{ fontFamily: "'UnifrakturCook', var(--font-unifraktur), cursive", fontWeight: 700 }}
+        >
+          <textPath href="#headline-arc" startOffset="50%">
+            The Oracle&apos;s Mirror
+          </textPath>
+        </text>
+        {/* Inner highlight — bright gold line at top edge */}
+        <text
+          fill="none"
+          stroke="#fff3ae"
+          strokeWidth="1"
+          fontSize="82"
+          letterSpacing="2"
+          textAnchor="middle"
+          opacity="0.5"
+          dy="1"
           style={{ fontFamily: "'UnifrakturCook', var(--font-unifraktur), cursive", fontWeight: 700 }}
         >
           <textPath href="#headline-arc" startOffset="50%">
