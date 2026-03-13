@@ -140,7 +140,7 @@ function QuizView({
             className="absolute top-1/2 -translate-y-1/2 w-[3rem] h-[3rem] rounded-full flex items-center justify-center border border-[#8b6914]"
             style={{ background: "#0d0906", boxShadow: "0 0 0 5px #0d0906, 0 0 18px #8b691455" }}
           >
-            <span className="font-cinzel text-[0.935rem] tracking-[2px] text-[#8b6914] select-none">OR</span>
+            <span className="font-unifraktur text-[0.935rem] tracking-[2px] text-[#8b6914] select-none">OR</span>
           </div>
         </div>
 
