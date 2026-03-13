@@ -83,10 +83,13 @@ function QuizView({
 
       {/* Header */}
       <div className="bg-[#0d0906] px-6 pt-6 pb-4 text-center border-b border-[#8b6914]/40">
-        <h1 className="font-grenze font-bold text-[2.2rem] tracking-wide text-[#c8a96e] mb-2">
+        <h1 className="font-unifraktur text-[2.2rem] tracking-wide text-[#c8a96e] mb-2">
           The Oracle&apos;s Mirror
         </h1>
-        <WingDivider color="#8b6914" width={160} opacity={0.65} />
+        <WingDivider color="#c8a96e" width={32} opacity={1} />
+        <p className="font-cinzel text-[0.6rem] tracking-[3px] text-[#8b6914] uppercase mt-2 mb-1">
+          A Dungeons &amp; Dragons Personality Test
+        </p>
         <p className="font-fell italic text-[1.4rem] text-[#f0ddb0] mt-3 mb-2">
           Would you rather...
         </p>
@@ -117,8 +120,10 @@ function QuizView({
           `}
           style={leftChosen ? { boxShadow: "inset 0 0 0 2px #c8a96e" } : {}}
         >
-          <CornerFlourish position="tl" color="#c8a96e" size={62} />
-          <CornerFlourish position="bl" color="#c8a96e" size={62} />
+          <CornerFlourish position="tl" color="#c8a96e" responsive opacity={0.9} />
+          <CornerFlourish position="tr" color="#c8a96e" responsive opacity={0.9} />
+          <CornerFlourish position="bl" color="#c8a96e" responsive opacity={0.9} />
+          <CornerFlourish position="br" color="#c8a96e" responsive opacity={0.9} />
           <span className="absolute left-5 top-1/2 -translate-y-1/2 text-[#8b6914] text-2xl opacity-25 group-hover:opacity-60 transition-opacity select-none hidden sm:block">◀</span>
           <p className="font-almendra italic text-[1.6rem] text-[#f0ddb0] text-center leading-relaxed max-w-sm">{leftOpt.label}</p>
           {leftChosen && (
@@ -129,7 +134,7 @@ function QuizView({
         {/* ── Vertical bar + OR circle — absolutely centred ── */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
           <div className="hidden sm:flex flex-col items-center justify-center h-full">
-            <VerticalBar color="#8b6914" height="calc(100vh - 180px)" opacity={0.45} />
+            <VerticalBar color="#c8a96e" height="calc((100vh - 180px) * 0.25)" opacity={1} />
           </div>
           <div
             className="absolute top-1/2 -translate-y-1/2 w-11 h-11 rounded-full flex items-center justify-center border border-[#8b6914]"
@@ -149,8 +154,10 @@ function QuizView({
           `}
           style={rightChosen ? { boxShadow: "inset 0 0 0 2px #7a0e0e" } : {}}
         >
-          <CornerFlourish position="tr" color="#8b6914" size={62} />
-          <CornerFlourish position="br" color="#8b6914" size={62} />
+          <CornerFlourish position="tl" color="#6b4a10" responsive opacity={1} />
+          <CornerFlourish position="tr" color="#6b4a10" responsive opacity={1} />
+          <CornerFlourish position="bl" color="#6b4a10" responsive opacity={1} />
+          <CornerFlourish position="br" color="#6b4a10" responsive opacity={1} />
           <span className="absolute right-5 top-1/2 -translate-y-1/2 text-[#8b6914] text-2xl opacity-25 group-hover:opacity-60 transition-opacity select-none hidden sm:block">▶</span>
           <p className="font-almendra italic text-[1.6rem] text-[#2c1810] text-center leading-relaxed max-w-sm">{rightOpt.label}</p>
           {rightChosen && (
