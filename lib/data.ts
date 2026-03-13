@@ -138,19 +138,22 @@ const TRAIT_LABELS: Record<TraitKey, string> = {
 };
 
 // ─── result type ──────────────────────────────────────────────
-export type ComputedResult = {
+export type ResultVariant = {
+  key: "core" | "shadow" | "safe";
+  label: string;
   className: string;
   subclassName: string;
   classDesc: string;
   raceName: string;
+  lawChaos: string;
+  goodEvil: string;
+};
+
+export type ComputedResult = {
+  variants: ResultVariant[];
   topTraits: Array<{ key: TraitKey; label: string; pct: number }>;
   archetypeLabel: string;
   archetypeDesc: string;
-  lawChaos: string;
-  goodEvil: string;
-  shadowClassName: string;
-  shadowSubclassName: string;
-  shadowClassDesc: string;
   flavorLines: string[];
 };
 
@@ -179,37 +182,59 @@ export function computeResult(raw: Scores, questions: Question[]): ComputedResul
     .sort((a, b) => b.score - a.score);
 
   const topClass    = scoredClasses[0];
-  const shadowClass = scoredClasses[1];
+  const shadowClass = scoredClasses[1] ?? scoredClasses[0];
 
-  // Best subclass for top class
-  const bestSub = subclassesRaw
-    .filter(s => s.classId === topClass.id)
-    .map(s => {
-      let score = dotScore(norm, s.weights as Partial<Scores>);
-      for (const rule of synergyRulesRaw) {
-        if (rule.appliesTo.subclassId === s.id && checkAll(norm, rule.allOf)) score += rule.bonus;
-      }
-      for (const rule of penaltyRulesRaw) {
-        if (rule.appliesTo.subclassId === s.id) {
-          const hit = (rule.allOf ? checkAll(norm, rule.allOf) : false)
-            || (rule.anyOf ? rule.anyOf.some(g => checkAll(norm, g.allOf)) : false);
-          if (hit) score -= rule.penalty;
+  const pickBestSubclass = (classId: string) =>
+    subclassesRaw
+      .filter(s => s.classId === classId)
+      .map(s => {
+        let score = dotScore(norm, s.weights as Partial<Scores>);
+        for (const rule of synergyRulesRaw) {
+          if (rule.appliesTo.subclassId === s.id && checkAll(norm, rule.allOf)) score += rule.bonus;
         }
-      }
-      return { ...s, score };
+        for (const rule of penaltyRulesRaw) {
+          if (rule.appliesTo.subclassId === s.id) {
+            const hit = (rule.allOf ? checkAll(norm, rule.allOf) : false)
+              || (rule.anyOf ? rule.anyOf.some(g => checkAll(norm, g.allOf)) : false);
+            if (hit) score -= rule.penalty;
+          }
+        }
+        return { ...s, score };
+      })
+      .sort((a, b) => b.score - a.score)[0] ?? null;
+
+  const bestSub = pickBestSubclass(topClass.id);
+
+  const safeClass = scoredClasses
+    .slice(1)
+    .map(c => {
+      const weights = c.weights as Partial<Scores>;
+      const safeBias =
+        ((weights.resilience ?? 0) * 1.2) +
+        ((weights.support ?? 0) * 1.1) +
+        ((weights.control ?? 0) * 0.7) +
+        ((weights.backline ?? 0) * 0.55) -
+        ((weights.complexity ?? 0) * 1.15) -
+        ((weights.frontline ?? 0) * 0.45) -
+        ((weights.destruction ?? 0) * 0.35);
+      return { ...c, safeScore: c.score + safeBias };
     })
-    .sort((a, b) => b.score - a.score)[0] ?? null;
+    .sort((a, b) => b.safeScore - a.safeScore)
+    .find(c => c.id !== topClass.id && c.id !== shadowClass.id)
+    ?? scoredClasses[2]
+    ?? shadowClass;
 
-  // Best subclass for shadow class
-  const shadowSub = subclassesRaw
-    .filter(s => s.classId === shadowClass.id)
-    .map(s => ({ ...s, score: dotScore(norm, s.weights as Partial<Scores>) }))
-    .sort((a, b) => b.score - a.score)[0] ?? null;
+  const shadowSub = pickBestSubclass(shadowClass.id);
+  const safeSub = pickBestSubclass(safeClass.id);
 
-  // Best race
-  const topRace = racesRaw
+  const scoredRaces = racesRaw
     .map(r => ({ ...r, score: dotScore(norm, r.weights as Partial<Scores>) }))
-    .sort((a, b) => b.score - a.score)[0];
+    .sort((a, b) => b.score - a.score);
+
+  const uniqueRaceChoices = scoredRaces.reduce<typeof scoredRaces>((acc, race) => {
+    if (!acc.some(entry => entry.id === race.id)) acc.push(race);
+    return acc;
+  }, []);
 
   // Best archetype
   const topArchetype = archetypesRaw
@@ -268,19 +293,32 @@ export function computeResult(raw: Scores, questions: Question[]): ComputedResul
     }`,
   ];
 
+  const buildVariant = (
+    key: ResultVariant["key"],
+    label: string,
+    classDef: typeof scoredClasses[number],
+    subclass: { label: string } | null,
+    raceName: string,
+  ): ResultVariant => ({
+    key,
+    label,
+    className: classDef.label,
+    subclassName: subclass?.label ?? "",
+    classDesc: classDef.description,
+    raceName,
+    lawChaos,
+    goodEvil,
+  });
+
   return {
-    className:         topClass.label,
-    subclassName:      bestSub?.label ?? "",
-    classDesc:         topClass.description,
-    raceName:          topRace.label,
+    variants: [
+      buildVariant("core", "Core Match", topClass, bestSub, uniqueRaceChoices[0]?.label ?? scoredRaces[0].label),
+      buildVariant("shadow", "Shadow Match", shadowClass, shadowSub, uniqueRaceChoices[1]?.label ?? uniqueRaceChoices[0]?.label ?? scoredRaces[0].label),
+      buildVariant("safe", "Safe Gameplay Alternative", safeClass, safeSub, uniqueRaceChoices[2]?.label ?? uniqueRaceChoices[1]?.label ?? uniqueRaceChoices[0]?.label ?? scoredRaces[0].label),
+    ],
     topTraits,
     archetypeLabel:    topArchetype.label,
     archetypeDesc:     topArchetype.description,
-    lawChaos,
-    goodEvil,
-    shadowClassName:    shadowClass.label,
-    shadowSubclassName: shadowSub?.label ?? "",
-    shadowClassDesc:    shadowClass.description,
     flavorLines,
   };
 }

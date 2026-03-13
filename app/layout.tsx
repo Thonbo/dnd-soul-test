@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { UnifrakturCook } from "next/font/google";
+import { Cormorant_Garamond, UnifrakturCook } from "next/font/google";
 import "./globals.css";
 
 const siteUrl = "https://the-oracles-mirror.netlify.app";
@@ -8,6 +8,14 @@ const unifraktur = UnifrakturCook({
   weight: "700",
   subsets: ["latin"],
   variable: "--font-unifraktur",
+  display: "swap",
+});
+
+const cormorant = Cormorant_Garamond({
+  weight: ["500", "600", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-cormorant",
   display: "swap",
 });
 
@@ -66,8 +74,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={unifraktur.variable}>
-      <body>{children}</body>
+    <html lang="en" className={`${unifraktur.variable} ${cormorant.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className={`${unifraktur.variable} ${cormorant.variable}`}>{children}</body>
     </html>
   );
 }
