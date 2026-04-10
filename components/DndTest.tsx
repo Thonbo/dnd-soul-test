@@ -396,7 +396,7 @@ function ResultView({ scores, questions, onRestart }: { scores: Scores; question
     setStoryStatus("loading");
     startStoryLoad(async () => {
       const controller = new AbortController();
-      const timeoutId = window.setTimeout(() => controller.abort(), 12000);
+      const timeoutId = window.setTimeout(() => controller.abort(), 30000);
       const applyLocalFallback = () => {
         setBackstories(Object.fromEntries(
           variants.map(variant => [
