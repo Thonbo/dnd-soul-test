@@ -305,7 +305,7 @@ function QuizView({
           <CornerFlourish position="bl" color="#c8a96e" responsive opacity={0.9} />
           <CornerFlourish position="br" color="#c8a96e" responsive opacity={0.9} />
           <span className="absolute left-5 top-1/2 -translate-y-1/2 text-[#8b6914] text-2xl opacity-25 group-hover:opacity-60 transition-opacity select-none hidden sm:block">◀</span>
-          <p className="font-almendra italic text-[1.6rem] text-[#f0ddb0] text-center leading-relaxed max-w-sm">{leftOpt.label}</p>
+          <p className="font-almendra italic text-[1.6rem] sm:text-[2rem] lg:text-[2.6rem] xl:text-[3.2rem] text-[#f0ddb0] text-center leading-relaxed max-w-sm sm:max-w-md lg:max-w-xl xl:max-w-2xl">{leftOpt.label}</p>
           {leftChosen && (
             <span className="mt-8 font-cinzel text-[0.7rem] tracking-[3px] text-[#c8a96e] uppercase select-none">✦ Chosen ✦</span>
           )}
@@ -349,7 +349,7 @@ function QuizView({
           <CornerFlourish position="bl" color="#6b4a10" responsive opacity={1} />
           <CornerFlourish position="br" color="#6b4a10" responsive opacity={1} />
           <span className="absolute right-5 top-1/2 -translate-y-1/2 text-[#8b6914] text-2xl opacity-25 group-hover:opacity-60 transition-opacity select-none hidden sm:block">▶</span>
-          <p className="font-almendra italic text-[1.6rem] text-[#2c1810] text-center leading-relaxed max-w-sm">{rightOpt.label}</p>
+          <p className="font-almendra italic text-[1.6rem] sm:text-[2rem] lg:text-[2.6rem] xl:text-[3.2rem] text-[#2c1810] text-center leading-relaxed max-w-sm sm:max-w-md lg:max-w-xl xl:max-w-2xl">{rightOpt.label}</p>
           {rightChosen && (
             <span className="mt-8 font-cinzel text-[0.7rem] tracking-[3px] text-[#7a0e0e] uppercase select-none">✦ Chosen ✦</span>
           )}
